@@ -27,6 +27,7 @@ Magnetospheric physics and geomagnetism, space weather, and solar wind/magnetosp
 
 # Publications
 
+* Winter, E., and R.S. Weigel, `nnde`: A Python package for solving differential equations using neural networks, *Journal of Open Source Software*, 2022, doi:10.21105/joss.03465, [pdf](Winter_2022_nnde_A_Python_package_for_solving_differential_equations_using_neural_networks).
 * Weigel, R.S., Vandegriff, J.V., Faden, J.B., et al., A Standard for Accessing Heliophysics Time Series Data, *Journal of Geophysical Research--Space Physics*, 2021, doi:10.1029/2021JA029534, [pdf](Weigel_2021_HAPI-An_API_Standard_for_Accessing_Heliophysics_Time_Series_Data.pdf).
 * Blake, S.P., Pulkkinen, Schuck, P.W., Glocer, A., D.M. Oliveira, D. Welling, R.S. Weigel, G. Quaresima, Recreating the Horizontal Magnetic Field at Colaba during the Carrington Event with Geospace Simulations, *Space Weather*, 2021, doi:10.1029/2020SW002585, [pdf](Blake_2019_Recreating_the_Horizonta_Magnetic_Field_at_Colaba_During_the_Carrington_Event_With_Geospace.pdf).
 * Battams, K., R.S. Weigel, H.A. Dennison, R.A. Howard, and J.L. Lean, Analysis of Coronal Brightness Correlations with Solar Irradiance Indices, *Solar Physics*, 2020, doi:10.1007/s11207-020-1589-1, [pdf](Battams_2020_The_LASCO_Coronal_Brightness_Index.pdf).
