@@ -14,12 +14,39 @@
       background-image: url("https://rweigel.github.io/biedit/img/paper.png")
     }
 
+    .body {
+      display: flex;
+      min-width: 50%;
+      max-height: 100%;
+      position: absolute;
+      background-image: url("https://rweigel.github.io/biedit/img/paper.png");
+    }
+
     #toc {
-      flex: 1 1 20%;
-      min-width: 3em;
+      flex: 0 1 auto;
+      margin-top: 0em;
+      margin-right: 1em;
       max-width: 12em;
-      margin-right: 0.5em;
       overflow: hidden auto;
+    }
+
+    #toc .toctext {
+      color: darkblue;
+    }
+
+    #toc .toctext-empty {
+      min-width: 1em;
+      border-bottom: 1px solid blue;
+    }
+
+    #toc ol {
+      list-style-type: decimal;
+      margin: 0.25em 0em 0em 0.25em;
+      padding-inline-start: 1em;
+    }
+
+    #toc a {
+      text-decoration: none;
     }
 
     #display {
@@ -28,240 +55,125 @@
       overflow-wrap: break-word;
     }
 
-    #toc ol {
-      list-style-type: decimal;
-      padding-inline-start: 1em;
-    }
-
-    #toc a {
-      text-decoration: none;
-    }
-
-    #display a {
-      text-decoration: none black;
-      text-underline-offset: 2px;
-    }
-
-    .title {
+    #display .abstract {
       text-align: center;
-      font-size: 250%;
+      font-size: 100%;
       font-weight: bold;
       color: black;
-      margin-bottom: 0px;
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
     }
 
-    .subtitle {
+    #display .title {
       text-align: center;
       font-size: 150%;
       font-weight: bold;
       color: black;
       margin-top: 0.2em;
+      margin-bottom: 0.2em;
     }
 
-    .hanchor {
-      text-decoration: none;
-      color: inherit;
+    #display .subtitle {
+      text-align: center;
+      font-size: 120%;
+      font-weight: bold;
+      color: black;
+      margin-top: 0.2em;
     }
 
-    h1 {
-      color: darkblue;
-      border-bottom: 2px solid darkblue;
+    #display .date {
+      text-align: right;
+      color: black;
     }
 
-    h2 {
-      border-bottom: 1px solid black;
-    }
-
-    h3 {
-      border-bottom: 1px dotted black;
-    }
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      width: 100%;
-      margin-block: 0.5em;
-    }
-
-    #display .block ul {
-      width: 100%;
-      margin-left: 1em;
-      padding-left: 1em;
-    }
-
-    #display .block ol {
-      width: 100%;
-      margin-left: 1em;
-      padding-left: 1em;
-    }
-
-    code {
-      width: 100%;
-      background-color: rgba(0, 0, 0, 0.03);
-      border-radius: 0px;
-      font-size: 1.2em;
-      white-space: pre-wrap;
-      margin-top: 3px;
-      margin-right: 3px;
-    }
-
-    #display pre code {
-      border-right: 1px solid black;
-    }
-
-    #display code.language-Python {
-      background-color: rgba(0, 0, 0, 0);
-      font-size: 1.2em;
-    }
-
-    #display pre {
-      width: 100%;
-      text-indent: 0.75em;
-      padding-left: 0.5em;
-      margin-left: 1em;
-      white-space: pre-wrap;
-      border-left: 3px solid black;
-      background-color: rgba(0, 0, 0, 0.03);
-      line-height: 1.5;
-      overflow-x: clip;
-    }
-
-    #display pre.language-Python {
-      border-left: 5px solid blue;
-      padding: 0.5em;
-      margin-left: 1em;
-      margin-right: 1em;
-      line-height: 1.5;
-      overflow-x: auto;
-    }
-
-    .block {
+    #display .block {
       display: flex;
       flex: 1 1 auto;
     }
 
-    .block.inline-html {
-      display: block;
+    #display .block>.comment {
+      display: none;
     }
 
-    .hr {
+    #display .hr {
       width: 100%;
       height: 1px;
       display: block;
       margin: 0.5em;
-      margin-block: 0.5em;
       border-top: 1px solid black;
     }
 
-    #display li>div {
-      display: flex;
+    #display a {
+      text-decoration-line: none;
+      text-decoration-color: black;
+      color: darkblue;
     }
 
-    p {
-      width: 100%;
-      display: block;
-      margin-block: 0.5em;
+    #display a.broken-internal-link {
+      text-decoration-line: underline;
+      text-decoration-style: wavy;
+      text-underline-offset: 2px;
+      text-decoration-color: red;
     }
 
-    #display li {
-      width: 100%;
+    #display span.broken-internal-link {
+      font-size: 0.75em;
+      color: red;
     }
 
-    li .block p {
+    #display a:focus-visible {
+      outline: none;
+      background-color: yellow;
+    }
+
+    #display p {
       width: 100%;
       display: block;
       margin-top: 0.5em;
       margin-bottom: 0.5em;
     }
 
-    li .block:first-of-type p {
+    #display pre {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+    }
+
+    #display h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       width: 100%;
+      text-decoration: none;
+      color: inherit;
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+    }
+
+    #display h1 {
+      color: darkblue;
+      border-bottom: 2px solid darkblue;
+    }
+
+    #display h2 {
+      border-bottom: 1px solid black;
+    }
+
+    #display h3 {
+      border-bottom: 1px dotted black;
+    }
+
+    #display img {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+      max-width: 100%;
+    }
+
+    figure {
       display: block;
-      margin-top: 0em;
-      margin-bottom: 0em;
-    }
-
-    .inline-html .block .line-number {
-      display: none;
-    }
-
-    .section>.block ol~.line-number {
-      display: none;
-    }
-
-    .section>.block ul~.line-number {
-      display: none;
-    }
-
-    .section>.block pre~.line-number {
-      display: none;
-    }
-
-    .section>.block code~.line-number {}
-
-    pre .line-number {
-      float: right;
-      font-size: 8px;
-      text-align: center;
-      text-indent: 0px;
-    }
-
-    .line-number {
-      float: right;
-      width: 4em;
-      font-family: monospace;
-      white-space: pre-line;
-      overflow-wrap: break-word;
-      font-size: 6px;
-      border: 1px solid black;
-    }
-
-    p+.line-number {
-      margin-block-start: 1px;
-    }
-
-    .block>div.linenumber {
-      margin-block-start: -0.5em;
-    }
-
-    .blockquote+div.line-number {
-      margin-top: 1rem;
-    }
-
-    h1+.line-number {
-      margin-block-start: 1em;
-    }
-
-    h2+.line-number {
-      margin-block-start: 1em;
-    }
-
-    h3+.line-number {
-      margin-block-start: 1em;
-    }
-
-    h4+.line-number {
-      margin-block-start: 1em;
-    }
-
-    h5+.line-number {
-      margin-block-start: 1em;
-    }
-
-    h6+.line-number {
-      margin-block-start: 1em;
-    }
-
-    .blockquote {
-      width: 100%;
-      display: block;
-      margin: 1em;
-      border: 1px solid black;
-      padding: 1em;
-      border-radius: 0.5em;
+      margin-block: 0em;
+      margin-inline: 0px;
     }
 
     details>summary {
@@ -319,14 +231,179 @@
       margin-bottom: 0px;
     }
 
+    #display code {
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.03);
+      border-radius: 0px;
+      white-space: pre-wrap;
+    }
+
+    #display code~.line-number {
+      margin-top: 3px;
+      margin-right: 3px;
+    }
+
+    #display pre {
+      width: 100%;
+      text-indent: 0.75em;
+      margin: 0.5em 0px;
+      white-space: pre-wrap;
+      border-left: 3px solid black;
+      background-color: rgba(0, 0, 0, 0.03);
+      line-height: 1.25;
+      overflow-x: clip;
+    }
+
+    #display pre code {
+      background-color: rgba(0, 0, 0, 0);
+      margin-top: 0.25em;
+      margin-bottom: 0.25em;
+    }
+
+    #display pre.language-python {}
+
+    #display li>div {
+      display: flex;
+    }
+
+    #display li {
+      min-height: 1em;
+      width: 100%;
+    }
+
+    #display ul {
+      width: 100%;
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+      margin-left: 1em;
+      padding-left: 0.35em;
+    }
+
+    #display ul.compact {
+      margin-top: 0.25em;
+      margin-bottom: 0.25em;
+    }
+
+    #display ol {
+      width: 100%;
+      margin-left: 1em;
+      padding-left: 0.5em;
+    }
+
+    #display>.section>.block>ol.loose {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+    }
+
+    #display>.section>.block>ol.compact {
+      margin-top: 0.25em;
+      margin-bottom: 0.25em;
+    }
+
+    #display ol.compact p {
+      margin-top: 0.25em;
+      margin-bottom: 0.25em;
+    }
+
+    #display ol.loose p {
+      margin-top: 0.25em;
+      margin-bottom: 0.25em;
+    }
+
+    #display ul.compact p {
+      margin-top: 0.25em;
+      margin-bottom: 0.25em;
+    }
+
+    #display ul.loose p {
+      margin-top: 0.25em;
+      margin-bottom: 0.25em;
+    }
+
+    .inline-html .block .block-info {
+      display: none;
+    }
+
+    .inline-html {
+      width: 100%;
+    }
+
+    .section>.block ol~.block-info {}
+
+    .section>.block ul~.block-info {}
+
+    .section>.block pre~.block-info {}
+
+    .section>.block code~.block-info {}
+
+    pre .block-info {
+      font-size: 8px;
+      text-align: right;
+      text-indent: 0px;
+    }
+
+    .block-info {
+      text-align: right;
+      width: 24px;
+      font-family: monospace;
+      white-space: pre-line;
+      overflow-wrap: break-word;
+      font-size: 8px;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+      border-right: 1px solid black;
+    }
+
+    .blockquote {
+      width: 100%;
+      display: block;
+      margin: 1em;
+      border: 1px solid black;
+      padding: 1em;
+      border-radius: 0.5em;
+    }
+
+    .inline {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+    }
+
+    .latex-underline {
+      text-decoration: underline;
+    }
+
     .katex {
       font-size: inherit !important;
     }
 
+    .katex-warning {
+      border-right: 0.5em solid red;
+    }
+
     .katex-display {
       text-align: center;
-      margin: 0.5em;
-      font-size: 1.1em !important;
+      margin: 0em;
+      font-size: 1em !important;
+    }
+
+    .katex-display.fleqn>.katex {
+      padding-left: 0em;
+      margin: 0em;
+    }
+
+    .page-break {
+      break-after: page;
+      width: 100%;
+      font-size: 0px;
+      border-top: 1px dotted black;
+    }
+
+    .solutionsfalse {
+      display: block;
+    }
+
+    .solutionstrue {
+      display: none;
     }
 
     @media print {
@@ -334,27 +411,22 @@
         overflow: visible !important;
       }
 
-      .page {
-        break-after: page;
+      @page {
+        size: auto;
+        margin: 0.5in 0.75in 0.75in;
       }
 
-      body,
-      html {
-        margin: 0in;
-        color: rgb(0, 0, 0);
-        background-color: rgb(255, 255, 255);
-        border: none;
-        overflow: auto;
+      .katex .hide-tail {
+        overflow: hidden !important;
+      }
+
+      .page-break {
+        border-top: none;
+      }
+
+      .body {
         display: inline;
-      }
-
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6 {
-        break-after: avoid;
+        position: relative;
       }
 
       h1,
@@ -369,12 +441,13 @@
 
       h1 {
         font-size: 1.25em;
-        border-bottom: 1px solid darkblue;
+        color: black;
+        border-bottom: 2px solid black;
       }
 
       h2 {
         font-size: 1.15em;
-        border-bottom: 1px solid darkblue;
+        border-bottom: 1px solid black;
       }
 
       h3 {
@@ -387,14 +460,18 @@
         font-size: 1.05em;
       }
 
-      p {
-        margin-top: 0px;
-        margin-bottom: 0.5em;
+      .md-toc {
+        break-inside: avoid;
+        font-size: 14px;
       }
 
-      .title {
-        break-before: page;
-        margin-top: 0px;
+      pre {
+        break-inside: avoid;
+      }
+
+      p {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
       }
 
       #toc {
@@ -417,38 +494,40 @@
       }
 
       .katex {
-        font: 1em / 1 KaTeX_Main, "Times New Roman", serif;
+        font: 1em / 1.1 KaTeX_Main, "Times New Roman", serif;
         white-space: nowrap;
         text-indent: 0px;
         text-rendering: auto;
       }
 
       .katex-display {
-        margin-top: 0px;
+        margin-top: 0px !important;
+        font-size: 1em !important;
       }
     }
   </style>
   <script>
     function tocClickListen() {
-        // No jQuery b/c also used in stand-alone HTML.
-        hs = document.querySelectorAll('#toc > ol ol');
-        for (var i = 0; i < hs.length; i++) {
-          if (hs[i].previousElementSibling) {
-            var el = hs[i].previousElementSibling.firstElementChild;
-            if (el.length == 0) {
-              continue;
-            }
-            el.addEventListener('click', event => {
-              var ns = event.target.parentNode.nextElementSibling;
-              if (ns.style.display === 'none') {
-    ns.style.display = 'block';
-              } else {
-    ns.style.display = 'none';
-              }
-            });
+      let hs = document.querySelectorAll('#toc > ol ol');
+      let el, ns;
+      for (let i = 0; i < hs.length; i++) {
+        if (hs[i].previousElementSibling) {
+          el = hs[i].previousElementSibling.firstElementChild;
+          if (el.length == 0) {
+            continue;
           }
+          el.addEventListener('click', event => {
+            ns = event.target.parentNode.nextElementSibling;
+            if (!ns) return;
+            if (ns.style.display === 'none') {
+    ns.style.display = 'block';
+            } else
+            {
+    ns.style.display = 'none';}
+          });
         }
       }
+    }
     if (
         document.readyState === "complete" ||
         (document.readyState !== "loading" && 
@@ -461,384 +540,479 @@
   </script>
 </head>
 
-<body style="position: absolute; display:flex; min-width:50%; max-height:100%;">
-  <div id="toc">
+<body class="body">
+  <div id="toc" style="min-width: 5em;">
     <ol>
-      <li><a number="1" href="#research-interests">Research Interests</a></li>
-      <li><a number="2" href="#education">Education</a></li>
-      <li><a number="3" href="#positions">Positions</a></li>
-      <li><a number="4" href="#publications" class="highlighted">Publications</a></li>
+      <li>
+        <a href="#research-interests" raw="# Research Interests" lo="8">
+          <span class="toctext">Research Interests</span>
+        </a>
+      </li>
+      <li>
+        <a href="#education" raw="# Education" lo="12">
+          <span class="toctext">Education</span>
+        </a>
+      </li>
+      <li>
+        <a href="#positions" raw="# Positions" lo="18" class="highlighted">
+          <span class="toctext">Positions</span>
+        </a>
+      </li>
+      <li>
+        <a href="#publications" raw="# Publications" lo="28" class="">
+          <span class="toctext">Publications</span>
+        </a>
+      </li>
     </ol>
   </div>
   <div id="display">
     <div class="section">
       <div class="block">
-        <p>Bob Weigel<br><a href="https://physics.gmu.edu/">Department of Physics and Astronomy</a><br><a href="https://www.gmu.edu/">George Mason University</a><br>4400 University Drive, 3F3<br>Fairfax, VA 22030<br><a href="mailto:rweigel@gmu.edu">rweigel@gmu.edu</a></p>
+        <p padlength="0" lo="1" lf="6">Bob Weigel<br><a href="https://physics.gmu.edu/">Department of Physics and Astronomy</a><br><a href="https://www.gmu.edu/">George Mason University</a><br>4400 University Drive, 3F3<br>Fairfax, VA 22030<br><a href="mailto:rweigel@gmu.edu">rweigel@gmu.edu</a></p>
+        <div class="block-info" style="display: none;"><span class="line-numbers">1-6</span></div>
       </div>
     </div>
     <div class="section">
       <div class="block">
-        <h1><a name="research-interests" number="1" class="hanchor" href="#research-interests"><span class="hnumber">1 </span> <span class="htext">Research Interests</span></a></h1>
+        <h1 lo="8" lf="8"><a name="research-interests" number="1" lo="8" raw="# Research Interests" class="anchor hanchor" href="#research-interests"><span class="hnumber">1</span>&nbsp;<span class="htext">Research Interests</span></a></h1>
+        <div class="block-info" style="display: none;"><span class="line-numbers">8</span></div>
       </div>
       <div class="block">
-        <p>Magnetospheric physics and geomagnetism, space weather, and solar wind/magnetosphere/ionosphere modeling</p>
+        <p padlength="0" lo="10" lf="10">Magnetospheric physics and geomagnetism, space weather, and solar wind/magnetosphere/ionosphere modeling</p>
+        <div class="block-info" style="display: none;"><span class="line-numbers">10</span></div>
       </div>
     </div>
     <div class="section">
       <div class="block">
-        <h1><a name="education" number="2" class="hanchor" href="#education"><span class="hnumber">2 </span> <span class="htext">Education</span></a></h1>
+        <h1 lo="12" lf="12"><a name="education" number="2" lo="12" raw="# Education" class="anchor hanchor" href="#education"><span class="hnumber">2</span>&nbsp;<span class="htext">Education</span></a></h1>
+        <div class="block-info" style="display: none;"><span class="line-numbers">12</span></div>
       </div>
       <div class="block">
-        <ul>
-          <li>
+        <ul lo="14" lf="16" class="compact">
+          <li markerlength="2" padlength="0" lo="14" lf="14">
             <div class="block">
-              <p>University of Texas at Austin, PhD, Physics, 2000</p>
+              <p padlength="0" lo="14" lf="14">University of Texas at Austin, PhD, Physics, 2000</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">14</span></div>
             </div>
           </li>
-          <li>
+          <li markerlength="2" padlength="0" lo="15" lf="15">
             <div class="block">
-              <p>University of Illinois at Urbana–Champaign, MS, Physics, 1997</p>
+              <p padlength="0" lo="15" lf="15">University of Illinois at Urbana–Champaign, MS, Physics, 1997</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">15</span></div>
             </div>
           </li>
-          <li>
+          <li markerlength="2" padlength="0" lo="16" lf="18">
             <div class="block">
-              <p>University of Wisconsin–Platteville, BS, Mechanical Engineering, 1995</p>
+              <p padlength="0" lo="16" lf="16">University of Wisconsin–Platteville, BS, Mechanical Engineering, 1995</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">16</span></div>
             </div>
           </li>
         </ul>
+        <div class="block-info" style="display: none;"><span class="line-numbers">14-16</span></div>
       </div>
     </div>
     <div class="section">
       <div class="block">
-        <h1><a name="positions" number="3" class="hanchor" href="#positions"><span class="hnumber">3 </span> <span class="htext">Positions</span></a></h1>
+        <h1 lo="18" lf="18" class="highlighted"><a name="positions" number="3" lo="18" raw="# Positions" class="anchor hanchor" href="#positions"><span class="hnumber">3</span>&nbsp;<span class="htext">Positions</span></a></h1>
+        <div class="block-info" style="display: none;"><span class="line-numbers">18</span></div>
       </div>
       <div class="block">
-        <ul>
-          <li>
+        <ul lo="20" lf="26" class="compact">
+          <li markerlength="2" padlength="0" lo="20" lf="20">
             <div class="block">
-              <p>Professor, 2021-, Department of Physics and Astronomy, George Mason University</p>
+              <p padlength="0" lo="20" lf="20">Professor, 2021-, Department of Physics and Astronomy, George Mason University</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">20</span></div>
             </div>
           </li>
-          <li>
+          <li markerlength="2" padlength="0" lo="21" lf="21">
             <div class="block">
-              <p>Associate Professor, 2015-, Department of Physics and Astronomy, George Mason University</p>
+              <p padlength="0" lo="21" lf="21">Associate Professor, 2015-, Department of Physics and Astronomy, George Mason University</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">21</span></div>
             </div>
           </li>
-          <li>
+          <li markerlength="2" padlength="0" lo="22" lf="22">
             <div class="block">
-              <p>Associate Professor, 2011-2015, School of Physics, Astronomy, and Computational Sciences, George Mason University</p>
+              <p padlength="0" lo="22" lf="22">Associate Professor, 2011-2015, School of Physics, Astronomy, and Computational Sciences, George Mason University</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">22</span></div>
             </div>
           </li>
-          <li>
+          <li markerlength="2" padlength="0" lo="23" lf="23">
             <div class="block">
-              <p>Director, 2009-, Space Weather Laboratory, George Mason University, Fairfax, VA</p>
+              <p padlength="0" lo="23" lf="23">Director, 2009-, Space Weather Laboratory, George Mason University, Fairfax, VA</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">23</span></div>
             </div>
           </li>
-          <li>
+          <li markerlength="2" padlength="0" lo="24" lf="24">
             <div class="block">
-              <p>Assistant Professor, 2006-2011, Department of Computational and Data Sciences, George Mason University</p>
+              <p padlength="0" lo="24" lf="24">Assistant Professor, 2006-2011, Department of Computational and Data Sciences, George Mason University</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">24</span></div>
             </div>
           </li>
-          <li>
+          <li markerlength="2" padlength="0" lo="25" lf="25">
             <div class="block">
-              <p>Research Scientist, 2003-2006, Laboratory for Atmospheric and Space Physics University of Colorado at Boulder, Boulder, CO</p>
+              <p padlength="0" lo="25" lf="25">Research Scientist, 2003-2006, Laboratory for Atmospheric and Space Physics University of Colorado at Boulder, Boulder, CO</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">25</span></div>
             </div>
           </li>
-          <li>
+          <li markerlength="2" padlength="0" lo="26" lf="28">
             <div class="block">
-              <p>Postdoctoral Researcher, 2001-2003, National Academy of Sciences at NASA Goddard Space Flight Center, Greenbelt, MD</p>
+              <p padlength="0" lo="26" lf="26" class="active">Postdoctoral Researcher, 2001-2003, National Academy of Sciences at NASA Goddard Space Flight Center, Greenbelt, MD</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">26</span></div>
             </div>
           </li>
         </ul>
+        <div class="block-info" style="display: none;"><span class="line-numbers">20-26</span></div>
       </div>
     </div>
     <div class="section">
       <div class="block">
-        <h1 class="highlighted"><a name="publications" number="4" class="hanchor" href="#publications"><span class="hnumber">4 </span> <span class="htext">Publications</span></a></h1>
+        <h1 lo="28" lf="28" class=""><a name="publications" number="4" lo="28" raw="# Publications" class="anchor hanchor" href="#publications"><span class="hnumber">4</span>&nbsp;<span class="htext">Publications</span></a></h1>
+        <div class="block-info" style="display: none;"><span class="line-numbers">28</span></div>
       </div>
       <div class="block">
-        <ul class="">
-          <li class="">
+        <p padlength="0" lo="30" lf="30" class="">Stephens, G.K., M.I. Sitnov, R.S. Weigel, D.L. Turner, N.A. Tsyganenko, A.J. Rogers, K. Genestreti, and J. A. Slavin, Global structure of magnetotail reconnection revealed by mining space magnetometer data, Journal of Geophysical Research–Space Physics, 2023, doi:10.1029/2022JA031066, [pdf](pubs/Stephens_2023_Global_structure_of magnetotail_reconnection_revealed_by_mining_space_magnetometer_data.pdf).</p>
+        <div class="block-info" style="display: none;"><span class="line-numbers">30</span></div>
+      </div>
+      <div class="block">
+        <ul lo="31" lf="87" class="compact">
+          <li markerlength="2" padlength="0" lo="31" lf="31" class="">
             <div class="block">
-              <p>Winter, E., and R.S. Weigel, <code>nnde</code>: A Python package for solving differential equations using neural networks, <em>Journal of Open Source Software</em>, 2022, doi:10.21105/joss.03465, <a href="Winter_2022_nnde_A_Python_package_for_solving_differential_equations_using_neural_networks">pdf</a>.</p>
+              <p padlength="0" lo="31" lf="31" class="">Winter, E., and R.S. Weigel, <code type="md">nnde</code>: A Python package for solving differential equations using neural networks, <em type="md" marker="*">Journal of Open Source Software</em>, 2022, doi:10.21105/joss.03465, <a href="pubs/Winter_2022_nnde_A_Python_package_for_solving_differential_equations_using_neural_networks">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">31</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="32" lf="32" class="">
             <div class="block">
-              <p>Weigel, R.S., Vandegriff, J.V., Faden, J.B., et al., A Standard for Accessing Heliophysics Time Series Data, <em>Journal of Geophysical Research–Space Physics</em>, 2021, doi:10.1029/2021JA029534, <a href="Weigel_2021_HAPI-An_API_Standard_for_Accessing_Heliophysics_Time_Series_Data.pdf">pdf</a>.</p>
+              <p padlength="0" lo="32" lf="32" class="">Weigel, R.S., Vandegriff, J.V., Faden, J.B., et al., A Standard for Accessing Heliophysics Time Series Data, <em type="md" marker="*">Journal of Geophysical Research–Space Physics</em>, 2021, doi:10.1029/2021JA029534, <a href="pubs/Weigel_2021_HAPI-An_API_Standard_for_Accessing_Heliophysics_Time_Series_Data.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">32</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="33" lf="33" class="">
             <div class="block">
-              <p>Blake, S.P., Pulkkinen, Schuck, P.W., Glocer, A., D.M. Oliveira, D. Welling, R.S. Weigel, G. Quaresima, Recreating the Horizontal Magnetic Field at Colaba during the Carrington Event with Geospace Simulations, <em>Space Weather</em>, 2021, doi:10.1029/2020SW002585, <a href="Blake_2019_Recreating_the_Horizonta_Magnetic_Field_at_Colaba_During_the_Carrington_Event_With_Geospace.pdf">pdf</a>.</p>
+              <p padlength="0" lo="33" lf="33" class="">Blake, S.P., Pulkkinen, Schuck, P.W., Glocer, A., D.M. Oliveira, D. Welling, R.S. Weigel, G. Quaresima, Recreating the Horizontal Magnetic Field at Colaba during the Carrington Event with Geospace Simulations, <em type="md" marker="*">Space Weather</em>, 2021, doi:10.1029/2020SW002585, <a href="pubs/Blake_2019_Recreating_the_Horizonta_Magnetic_Field_at_Colaba_During_the_Carrington_Event_With_Geospace.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">33</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="34" lf="34" class="">
             <div class="block">
-              <p>Battams, K., R.S. Weigel, H.A. Dennison, R.A. Howard, and J.L. Lean, Analysis of Coronal Brightness Correlations with Solar Irradiance Indices, <em>Solar Physics</em>, 2020, doi:10.1007/s11207-020-1589-1, <a href="Battams_2020_The_LASCO_Coronal_Brightness_Index.pdf">pdf</a>.</p>
+              <p padlength="0" lo="34" lf="34" class="">Battams, K., R.S. Weigel, H.A. Dennison, R.A. Howard, and J.L. Lean, Analysis of Coronal Brightness Correlations with Solar Irradiance Indices, <em type="md" marker="*">Solar Physics</em>, 2020, doi:10.1007/s11207-020-1589-1, <a href="pubs/Battams_2020_The_LASCO_Coronal_Brightness_Index.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">34</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="35" lf="35" class="">
             <div class="block">
-              <p>Weigel, R.S. and P. Cilliers, A Test of the Frequency Independence Assumption of the Power System Parameters used in Geomagnetically Induced Current Calculations, <em>Space Weather</em>, 2019 doi:10.1029/2019SW002234, <a href="Weigel_2019_An_Evaluation_of_the_Frequency_Independence_Assumption_of_Power_System_Coefficients_Used_in.pdf">pdf</a>.</p>
+              <p padlength="0" lo="35" lf="35" class="">Weigel, R.S. and P. Cilliers, A Test of the Frequency Independence Assumption of the Power System Parameters used in Geomagnetically Induced Current Calculations, <em type="md" marker="*">Space Weather</em>, 2019 doi:10.1029/2019SW002234, <a href="pubs/Weigel_2019_An_Evaluation_of_the_Frequency_Independence_Assumption_of_Power_System_Coefficients_Used_in.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">35</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="36" lf="36" class="">
             <div class="block">
-              <p>Harvey, C. and Weigel, R.S., Transplant2Mongo: Python Scripts that Insert Organ Procurement and Transplantation Network (OPTN) Data in MongoDB. <em>Journal of Open Research Software</em>, 7:5, 2019 doi:10.5334/jors.229, <a href="Harvey_2019_Transplant2Mongo_Python_Scripts_that_Insert_Organ_Procurement_and_Transplantation_Network_(OPTN)_Data_in_MongoDB.pdf.pdf">pdf</a>.</p>
+              <p padlength="0" lo="36" lf="36" class="">Harvey, C. and Weigel, R.S., Transplant2Mongo: Python Scripts that Insert Organ Procurement and Transplantation Network (OPTN) Data in MongoDB. <em type="md" marker="*">Journal of Open Research Software</em>, 7:5, 2019 doi:10.5334/jors.229, <a href="pubs/Harvey_2019_Transplant2Mongo_Python_Scripts_that_Insert_Organ_Procurement_and_Transplantation_Network_(OPTN)_Data_in_MongoDB.pdf.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">36</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="37" lf="37" class="">
             <div class="block">
-              <p>Battams, K., R.S. Weigel, and B.M. Gallagher, A Global Survey of EUV Coronal Power Spectra, <em>Solar Physics</em>, 2019, doi:10.1007/s11207-019-1399-5, <a href="Battams_2019_A_Global_Survey_of_EUV_Coronal_Power_Spectra.pdf">pdf</a>.</p>
+              <p padlength="0" lo="37" lf="37" class="">Battams, K., R.S. Weigel, and B.M. Gallagher, A Global Survey of EUV Coronal Power Spectra, <em type="md" marker="*">Solar Physics</em>, 2019, doi:10.1007/s11207-019-1399-5, <a href="pubs/Battams_2019_A_Global_Survey_of_EUV_Coronal_Power_Spectra.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">37</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="38" lf="38" class="">
             <div class="block">
-              <p>Liemohn, M.W., J.P. McCollough, V.K. Jordanova, C.M. Ngwira, S.K. Morley, C. Cid, W.K. Tobiska, P. Wintoft, N.Y. Ganushkina, D.T. Welling, S. Bingham, M. Balikhin, H. Opgenoorth, M. Engel, R. S. Weigel, H.J. Singer, D. Buresova, S. Bruinsma, I. Zhelavskaya, Y.Y. Shprits, and R. Vasile. Model evaluation guidelines for geomagnetic index predictions. <em>Space Weather</em>, 2018, doi:10.1029/2018SW002067, <a href="Liemohn_2018_Model_Evaluation_Guidelines_for_Geomagnetic_Index_Predictions.pdf">pdf</a>.</p>
+              <p padlength="0" lo="38" lf="38" class="">Liemohn, M.W., J.P. McCollough, V.K. Jordanova, C.M. Ngwira, S.K. Morley, C. Cid, W.K. Tobiska, P. Wintoft, N.Y. Ganushkina, D.T. Welling, S. Bingham, M. Balikhin, H. Opgenoorth, M. Engel, R. S. Weigel, H.J. Singer, D. Buresova, S. Bruinsma, I. Zhelavskaya, Y.Y. Shprits, and R. Vasile. Model evaluation guidelines for geomagnetic index predictions. <em type="md" marker="*">Space Weather</em>, 2018, doi:10.1029/2018SW002067, <a href="pubs/Liemohn_2018_Model_Evaluation_Guidelines_for_Geomagnetic_Index_Predictions.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">38</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="39" lf="39" class="">
             <div class="block">
-              <p>Welling, D.T., C. M. Ngwira, Opgenoorth, H., J. D. Haiducek, N.P. Savani, S.K. Morley, C. Cid, R.S. Weigel, J.M. Weygand, J.R. Woodroffe, H.J. Singer, L. Rosenqvist, M.W. Liemohn, Recommendations for Next-Generation Ground Magnetic Perturbation Validation, <em>Space Weather</em>, 2018, doi:10.1029/2018SW002064, <a href="Welling_2018_Recommendations_for_Next%E2%80%90Generation_Ground_Magnetic_Perturbation_Validation.pdf">pdf</a>.</p>
+              <p padlength="0" lo="39" lf="39" class="">Welling, D.T., C. M. Ngwira, Opgenoorth, H., J. D. Haiducek, N.P. Savani, S.K. Morley, C. Cid, R.S. Weigel, J.M. Weygand, J.R. Woodroffe, H.J. Singer, L. Rosenqvist, M.W. Liemohn, Recommendations for Next-Generation Ground Magnetic Perturbation Validation, <em type="md" marker="*">Space Weather</em>, 2018, doi:10.1029/2018SW002064, <a href="pubs/Welling_2018_Recommendations_for_Next%E2%80%90Generation_Ground_Magnetic_Perturbation_Validation.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">39</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="40" lf="41" class="">
             <div class="block">
-              <p>Weigel, R.S., A Comparison of Methods for Estimating the Geoelectric Field, <em>Space Weather</em>, 2017, doi:10.1002/2016SW001504, <a href="Weigel_2017_A_comparison_of_methods_for_estimating_the_geoelectric_field.pdf">pdf</a>.</p>
+              <p padlength="0" lo="40" lf="41" class="">Weigel, R.S., A Comparison of Methods for Estimating the Geoelectric Field, <em type="md" marker="_">Space Weather</em>, 2017, doi:10.1002/2016SW001504, <a href="pubs/Weigel_2017_A_comparison_of_methods_for_estimating_the_geoelectric_field.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">40-41</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="42" lf="42" class="">
             <div class="block">
-              <p>Pulkkinen, A.A., Bernabeu, E. Thomson, A.W.P., Viljanen A., Pirjola, R.J., Boteler, D., Eichner, J., Cilliers, P.J., Welling, D., Savani, N.P., Weigel, R.S., Love, J.J., Balch, C.C., Ngwira, C.M., Crowley, G., Schultz, A., Kataoka, R., Anderson, B.J. Fugate, D., Simpson, J.J, Macalester, M.H., Geomagnetically induced currents: science, engineering and applications readiness, <em>Space Weather</em>, 2017, doi:10.1002/2016SW001501, <a href="Pulkkinen_2017_Geomagnetically_induced_currents_Science_engineering_and_applications_readiness.pdf">pdf</a>.</p>
+              <p padlength="0" lo="42" lf="42" class="">Pulkkinen, A.A., Bernabeu, E. Thomson, A.W.P., Viljanen A., Pirjola, R.J., Boteler, D., Eichner, J., Cilliers, P.J., Welling, D., Savani, N.P., Weigel, R.S., Love, J.J., Balch, C.C., Ngwira, C.M., Crowley, G., Schultz, A., Kataoka, R., Anderson, B.J. Fugate, D., Simpson, J.J, Macalester, M.H., Geomagnetically induced currents: science, engineering and applications readiness, <em type="md" marker="*">Space Weather</em>, 2017, doi:10.1002/2016SW001501, <a href="pubs/Pulkkinen_2017_Geomagnetically_induced_currents_Science_engineering_and_applications_readiness.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">42</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="43" lf="43" class="">
             <div class="block">
-              <p>Veibell, V., Weigel, R.S., and Denton, R.E., Solar wind, F10.7, and geomagnetic activity relationship to the equatorial plasma mass density at geosynchronous orbit, <em>Space Weather</em>, 2016, doi:10.1002/2016SW001507, <a href="Veibell_2016_Solar_wind_F10_7_and_geomagnetic_activity_relationship_to_the_equatorial_plasma_mass.pdf">pdf</a>.</p>
+              <p padlength="0" lo="43" lf="43" class="">Veibell, V., Weigel, R.S., and Denton, R.E., Solar wind, F10.7, and geomagnetic activity relationship to the equatorial plasma mass density at geosynchronous orbit, <em type="md" marker="*">Space Weather</em>, 2016, doi:10.1002/2016SW001507, <a href="pubs/Veibell_2016_Solar_wind_F10_7_and_geomagnetic_activity_relationship_to_the_equatorial_plasma_mass.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">43</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="44" lf="44" class="">
             <div class="block">
-              <p>Glocer, A., L. Rastatter, M. Kuznetsova, A. Pulkkinen, H. J. Singer , C. Balch , D. Weimer , D. Welling , M. Wiltberger, J. Raeder, R. Weigel, J. McCollough, and S. Wing, Community-wide validation of geospace model local K-index predictions to support model transition to operations, <em>Space Weather</em>, 2016, doi:10.1002/2016SW001387, <a href="Glocer_2016_Community%E2%80%90wide_validation_of_geospace_model_local_K%E2%80%90index_predictions_to_support_model.pdf">pdf</a>.</p>
+              <p padlength="0" lo="44" lf="44" class="">Glocer, A., L. Rastatter, M. Kuznetsova, A. Pulkkinen, H. J. Singer , C. Balch , D. Weimer , D. Welling , M. Wiltberger, J. Raeder, R. Weigel, J. McCollough, and S. Wing, Community-wide validation of geospace model local K-index predictions to support model transition to operations, <em type="md" marker="*">Space Weather</em>, 2016, doi:10.1002/2016SW001387, <a href="pubs/Glocer_2016_Community%E2%80%90wide_validation_of_geospace_model_local_K%E2%80%90index_predictions_to_support_model.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">44</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="45" lf="45" class="">
             <div class="block">
-              <p>McCracken, J.M and Weigel, R.S., Nonparametric causal inference for bivariate time series, <em>Physical Review E</em>, 93, 2016, doi:10.1103/PhysRevE.93.022207, <a href="McCracken_2016_Nonparametric_causal_inference_for_bivariate_time_series.pdf">pdf</a>.</p>
+              <p padlength="0" lo="45" lf="45" class="">McCracken, J.M and Weigel, R.S., Nonparametric causal inference for bivariate time series, <em type="md" marker="*">Physical Review E</em>, 93, 2016, doi:10.1103/PhysRevE.93.022207, <a href="pubs/McCracken_2016_Nonparametric_causal_inference_for_bivariate_time_series.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">45</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="46" lf="46" class="">
             <div class="block">
-              <p>Nwankwo, V., Chakrabarti, S.K, Weigel, R.S., Effects of Plasma Drag on Low Earth Orbiting Satellites due to Solar Forcing Induced Perturbations and Heating, <em>Advances in Space Research</em>, 2015, doi:10.1016/j.asr.2015.03.044, <a href="Nwankwo_2015_Effects_of_plasma_drag_on_low_Earth_orbiting_satellites_due_to_solar_forcing_induced_perturbations_and_heating.pdf">pdf</a>.</p>
+              <p padlength="0" lo="46" lf="46" class="">Nwankwo, V., Chakrabarti, S.K, Weigel, R.S., Effects of Plasma Drag on Low Earth Orbiting Satellites due to Solar Forcing Induced Perturbations and Heating, <em type="md" marker="*">Advances in Space Research</em>, 2015, doi:10.1016/j.asr.2015.03.044, <a href="pubs/Nwankwo_2015_Effects_of_plasma_drag_on_low_Earth_orbiting_satellites_due_to_solar_forcing_induced_perturbations_and_heating.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">46</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="47" lf="47" class="">
             <div class="block">
-              <p>A. Kercher and R.S. Weigel, Removal of pseudo-convergence in coplanar and near-coplanar Riemann problems of ideal magnetohydrodynamics solved using finite volume schemes, <em>Journal of Computational Physics</em>, 2015, doi:10.1016/j.jcp.2014.11.027, <a href="Kercher_2015_Removal_of_pseudo-convergence_in_coplanar_and_near-coplanar_Riemann_problems_of_ideal_MHD_solved_using_finite_volume_schemes.pdf">pdf</a>.</p>
+              <p padlength="0" lo="47" lf="47" class="">A. Kercher and R.S. Weigel, Removal of pseudo-convergence in coplanar and near-coplanar Riemann problems of ideal magnetohydrodynamics solved using finite volume schemes, <em type="md" marker="*">Journal of Computational Physics</em>, 2015, doi:10.1016/j.jcp.2014.11.027, <a href="pubs/Kercher_2015_Removal_of_pseudo-convergence_in_coplanar_and_near-coplanar_Riemann_problems_of_ideal_MHD_solved_using_finite_volume_schemes.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">47</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="48" lf="48" class="">
             <div class="block">
-              <p>J.M. McCracken, R.S. Weigel, Convergent Cross-Mapping and Pairwise Asymmetric Inference, <em>Physical Review E</em>, 2014, doi:/10.1103/PhysRevE.90.062903, <a href="McCracken_2014_Convergent_cross-mapping_and_pairwise_asymmetric_inference.pdf">pdf</a>.</p>
+              <p padlength="0" lo="48" lf="48" class="">J.M. McCracken, R.S. Weigel, Convergent Cross-Mapping and Pairwise Asymmetric Inference, <em type="md" marker="*">Physical Review E</em>, 2014, doi:/10.1103/PhysRevE.90.062903, <a href="pubs/McCracken_2014_Convergent_cross-mapping_and_pairwise_asymmetric_inference.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">48</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="49" lf="49" class="">
             <div class="block">
-              <p>Pulkkinen, A., L. Rastätter, M. Kuznetsova, H. Singer, C. Balch, D. Weimer, G. Toth, A. Ridley, T. Gombosi, M. Wiltberger, J. Raeder and R. Weigel, Community-wide validation of geospace model ground magnetic field perturbation predictions to support model transition to operations, <em>Space Weather</em>, 2013, doi:10.1002/swe.20056, <a href="Pulkkinen_2013_Community%E2%80%90wide_validation_of_geospace_model_ground_magnetic_field_perturbation.pdf">pdf</a>.</p>
+              <p padlength="0" lo="49" lf="49" class="">Pulkkinen, A., L. Rastätter, M. Kuznetsova, H. Singer, C. Balch, D. Weimer, G. Toth, A. Ridley, T. Gombosi, M. Wiltberger, J. Raeder and R. Weigel, Community-wide validation of geospace model ground magnetic field perturbation predictions to support model transition to operations, <em type="md" marker="*">Space Weather</em>, 2013, doi:10.1002/swe.20056, <a href="pubs/Pulkkinen_2013_Community%E2%80%90wide_validation_of_geospace_model_ground_magnetic_field_perturbation.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">49</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="50" lf="50" class="">
             <div class="block">
-              <p>Rastätter, L., M.M. Kuznetsova, A. Glocer, D. Welling, X. Meng, J. Raeder, M. Wiltberger, V.K. Jordanova, Y. Yu, S. Zaharia, R.S. Weigel, S. Sazykin, R. Boynton, H. Wei, V. Eccles, W. Horton, M.L. Mays, and J. Gannon, Geospace environment modeling 2008–2009 challenge: Dst index, <em>Space Weather</em>, 2013, doi:10.1002/swe.20036, <a href="Rastatter_2013_Geospace_environment_modeling_2008_2009_challenge_Dst_index">pdf</a>.</p>
+              <p padlength="0" lo="50" lf="50" class="">Rastätter, L., M.M. Kuznetsova, A. Glocer, D. Welling, X. Meng, J. Raeder, M. Wiltberger, V.K. Jordanova, Y. Yu, S. Zaharia, R.S. Weigel, S. Sazykin, R. Boynton, H. Wei, V. Eccles, W. Horton, M.L. Mays, and J. Gannon, Geospace environment modeling 2008–2009 challenge: Dst index, <em type="md" marker="*">Space Weather</em>, 2013, doi:10.1002/swe.20036, <a href="pubs/Rastatter_2013_Geospace_environment_modeling_2008_2009_challenge_Dst_index">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">50</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="51" lf="51" class="">
             <div class="block">
-              <p>Rowland, W. and R.S. Weigel, Intra-calibration of Particle Detectors on a Three-Axis Stabilized Geostationary Platform, <em>Space Weather</em>, 2012, doi:10.1029/2012SW000816, <a href="Rowland_2012_Intracalibration_of_particle_detectors_on_a_three%E2%80%90axis_stabilized_geostationary_platform.pdf">pdf</a>.</p>
+              <p padlength="0" lo="51" lf="51" class="">Rowland, W. and R.S. Weigel, Intra-calibration of Particle Detectors on a Three-Axis Stabilized Geostationary Platform, <em type="md" marker="*">Space Weather</em>, 2012, doi:10.1029/2012SW000816, <a href="pubs/Rowland_2012_Intracalibration_of_particle_detectors_on_a_three%E2%80%90axis_stabilized_geostationary_platform.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">51</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="52" lf="52" class="">
             <div class="block">
-              <p>A. Pulkkinen, M. Kuznetsova, A. Ridley, J. Raeder, D. Weimer, R.S. Weigel, M. Wiltberger, G. Millward, L. Rastter, M. Hesse, H.J. Singer and A. Chulaki, Geospace Environment Modeling 2008-2009 Challenge: ground magnetic field perturbations, <em>Space Weather</em>, 2011, doi:10.1029/2010SW000600, <a href="Pulkkinen_2011_Geospace_Environment_Modeling_2008_2009_Challenge_Ground_magnetic_field_perturbations.pdf">pdf</a>.</p>
+              <p padlength="0" lo="52" lf="52" class="">A. Pulkkinen, M. Kuznetsova, A. Ridley, J. Raeder, D. Weimer, R.S. Weigel, M. Wiltberger, G. Millward, L. Rastter, M. Hesse, H.J. Singer and A. Chulaki, Geospace Environment Modeling 2008-2009 Challenge: ground magnetic field perturbations, <em type="md" marker="*">Space Weather</em>, 2011, doi:10.1029/2010SW000600, <a href="pubs/Pulkkinen_2011_Geospace_Environment_Modeling_2008_2009_Challenge_Ground_magnetic_field_perturbations.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">52</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="53" lf="53" class="">
             <div class="block">
-              <p>Weigel, R.S., Comment on “Lies, damned lies and statistics (in Geology)” by Vermeesch, 2009, <em>Eos</em>, 2011, doi:10.1029/2011EO080010, <a href="Weigel_2011_Misapplication_of_a_Statistical_Test_Comment_on_Lies_Damned_Lies_and_Statistics_in_Geology.pdf">pdf</a>.</p>
+              <p padlength="0" lo="53" lf="53" class="">Weigel, R.S., Comment on “Lies, damned lies and statistics (in Geology)” by Vermeesch, 2009, <em type="md" marker="*">Eos</em>, 2011, doi:10.1029/2011EO080010, <a href="pubs/Weigel_2011_Misapplication_of_a_Statistical_Test_Comment_on_Lies_Damned_Lies_and_Statistics_in_Geology.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">53</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="54" lf="54" class="">
             <div class="block">
-              <p>Weigel, R.S., Solar wind density influence on geomagnetic storm intensity, <em>Journal of Geophysical Research</em>, 2010, doi:10.1029/2009ja015062, <a href="Weigel_2010_Solar_wind_density_influence_on_geomagnetic_storm_intensity.pdf">pdf</a>. </p>
+              <p padlength="0" lo="54" lf="54" class="">Weigel, R.S., Solar wind density influence on geomagnetic storm intensity, <em type="md" marker="*">Journal of Geophysical Research</em>, 2010, doi:10.1029/2009ja015062, <a href="pubs/Weigel_2010_Solar_wind_density_influence_on_geomagnetic_storm_intensity.pdf">pdf</a>. </p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">54</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="55" lf="55" class="">
             <div class="block">
-              <p>Weigel, R.S., D.M. Lindholm, A. Wilson, and J. Faden, TSDS: high-performance merge, subset, and filter software for time series-like data, <em>Earth Science Informatics</em>, 2010, doi:10.1007/s12145-010-0056-1, <a href="Weigel_2010_TSDS__high-performance_merge_subset__and_filter_software_for_time_series-like_data.pdf">pdf</a>.</p>
+              <p padlength="0" lo="55" lf="55" class="">Weigel, R.S., D.M. Lindholm, A. Wilson, and J. Faden, TSDS: high-performance merge, subset, and filter software for time series-like data, <em type="md" marker="*">Earth Science Informatics</em>, 2010, doi:10.1007/s12145-010-0056-1, <a href="pubs/Weigel_2010_TSDS__high-performance_merge_subset__and_filter_software_for_time_series-like_data.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">55</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="56" lf="56" class="">
             <div class="block">
-              <p>Weigel, R.S., M. Zhizhin, D. Mishin, D. Kokovin, E. Kihn, and J. Faden, VxOware: Software for Managing Virtual Observatory Metadata, <em>Earth Science Informatics</em>, 2010, doi:10.1007/s12145-010-0048-1, <a href="Weigel_2010_VxOware_software_for_managing_virtual_observatory_metadata.pdf">pdf</a>.</p>
+              <p padlength="0" lo="56" lf="56" class="">Weigel, R.S., M. Zhizhin, D. Mishin, D. Kokovin, E. Kihn, and J. Faden, VxOware: Software for Managing Virtual Observatory Metadata, <em type="md" marker="*">Earth Science Informatics</em>, 2010, doi:10.1007/s12145-010-0048-1, <a href="pubs/Weigel_2010_VxOware_software_for_managing_virtual_observatory_metadata.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">56</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="57" lf="57" class="">
             <div class="block">
-              <p>Faden, J.B., R.S. Weigel, J. Merka and R.H.W. Friedel, Autoplot: a browser for scientific data on the web, <em>Earth Science Informatics</em>, 2010 doi:10.1007/s12145-010-0049-0, <a href="Faden_2010_Autoplot_a_browser_for_scientific_data_on_the_web.pdf">pdf</a>.</p>
+              <p padlength="0" lo="57" lf="57" class="">Faden, J.B., R.S. Weigel, J. Merka and R.H.W. Friedel, Autoplot: a browser for scientific data on the web, <em type="md" marker="*">Earth Science Informatics</em>, 2010 doi:10.1007/s12145-010-0049-0, <a href="pubs/Faden_2010_Autoplot_a_browser_for_scientific_data_on_the_web.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">57</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="58" lf="58" class="">
             <div class="block">
-              <p>Borne, K., Wallin, J., and Weigel, R., The New Computational and Data Sciences Undergraduate Program at George Mason University, <em>The International Conference on Computational Science</em>, 2009, doi:10.1007/978-3-642-01973-9_9, <a href="Borne_2009_The_New_Computational_and_Data_Sciences_Program_at_GMU.pdf">pdf</a>.</p>
+              <p padlength="0" lo="58" lf="58" class="">Borne, K., Wallin, J., and Weigel, R., The New Computational and Data Sciences Undergraduate Program at George Mason University, <em type="md" marker="*">The International Conference on Computational Science</em>, 2009, doi:10.1007/978-3-642-01973-9_9, <a href="pubs/Borne_2009_The_New_Computational_and_Data_Sciences_Program_at_GMU.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">58</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="59" lf="59" class="">
             <div class="block">
-              <p>Weigel, R.S., D.N. Baker, D. Aaron Roberts, and T. King, Using Virtual Observatories for Heliophysics Research, <em>Eos</em>, 2009, doi:10.1029/2009EO470001, <a href="Weigel_2009_Using_Virtual_Observatories_for_Heliophysics_Research.pdf">pdf</a>.</p>
+              <p padlength="0" lo="59" lf="59" class="">Weigel, R.S., D.N. Baker, D. Aaron Roberts, and T. King, Using Virtual Observatories for Heliophysics Research, <em type="md" marker="*">Eos</em>, 2009, doi:10.1029/2009EO470001, <a href="pubs/Weigel_2009_Using_Virtual_Observatories_for_Heliophysics_Research.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">59</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="60" lf="60" class="">
             <div class="block">
-              <p>Wiltberger, M., R.S. Weigel, W. Lotko, and J A. Fedder, Modeling seasonal variations of auroral particle precipitation in a global-scale magnetosphere-ionosphere simulation, <em>Journal of Geophysical Research</em>, 2009, doi:10.1029/2008JA013108, <a href="Wiltberger_2009_Modeling_seasonal_variations_of_auroral_particle_precipitation_in_a_global-scale_magnetosphere-ionosphere_simulation.pdf">pdf</a>.</p>
+              <p padlength="0" lo="60" lf="60" class="">Wiltberger, M., R.S. Weigel, W. Lotko, and J A. Fedder, Modeling seasonal variations of auroral particle precipitation in a global-scale magnetosphere-ionosphere simulation, <em type="md" marker="*">Journal of Geophysical Research</em>, 2009, doi:10.1029/2008JA013108, <a href="pubs/Wiltberger_2009_Modeling_seasonal_variations_of_auroral_particle_precipitation_in_a_global-scale_magnetosphere-ionosphere_simulation.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">60</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="61" lf="61" class="">
             <div class="block">
-              <p>Weigel, R.S., Solar wind time history contribution to the day-of-year variation in geomagnetic activity, <em>Journal of Geophysical Research</em>, 2007, doi:10.1029/2007JA012324, <a href="Weigel_2007_Solar_wind_time_history_contribution_to_the_day-of-year_variation_in_geomagnetic_activity.pdf">pdf</a>.</p>
+              <p padlength="0" lo="61" lf="61" class="">Weigel, R.S., Solar wind time history contribution to the day-of-year variation in geomagnetic activity, <em type="md" marker="*">Journal of Geophysical Research</em>, 2007, doi:10.1029/2007JA012324, <a href="pubs/Weigel_2007_Solar_wind_time_history_contribution_to_the_day-of-year_variation_in_geomagnetic_activity.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">61</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="62" lf="62" class="">
             <div class="block">
-              <p>Baker, D.N., Wiltberger, M.J., Weigel, R.S., and Elkington, S.R. Present status and future challenges of modeling the Sun Earth end-to-end system, <em>Journal of Atmospheric and Solar-Terrestrial Physics</em>, 2007, doi:10.1016/j.jastp.2006.07.017, <a href="Baker_2007_Present_status_and_future_challenges_of_modeling_the_Sun%E2%80%93Earth_end-to-end_system.pdf">pdf</a>.</p>
+              <p padlength="0" lo="62" lf="62" class="">Baker, D.N., Wiltberger, M.J., Weigel, R.S., and Elkington, S.R. Present status and future challenges of modeling the Sun Earth end-to-end system, <em type="md" marker="*">Journal of Atmospheric and Solar-Terrestrial Physics</em>, 2007, doi:10.1016/j.jastp.2006.07.017, <a href="pubs/Baker_2007_Present_status_and_future_challenges_of_modeling_the_Sun%E2%80%93Earth_end-to-end_system.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">62</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="63" lf="63" class="">
             <div class="block">
-              <p>Doxas, I., W. Horton, J. Lyon, M. Wiltberger, R. S. Weigel Branch prediction and speculative execution: A magnetospheric data assimilation scheme for space weather forecasting, <em>Space Weather</em>, 2007, doi:/10.1029/2006SW000236, <a href="Doxas_2007_Branch_prediction_and_speculative_execution__A_magnetospheric_data_assimilation_scheme_for_space_weather_forecasting.pdf">pdf</a>.</p>
+              <p padlength="0" lo="63" lf="63" class="">Doxas, I., W. Horton, J. Lyon, M. Wiltberger, R. S. Weigel Branch prediction and speculative execution: A magnetospheric data assimilation scheme for space weather forecasting, <em type="md" marker="*">Space Weather</em>, 2007, doi:/10.1029/2006SW000236, <a href="pubs/Doxas_2007_Branch_prediction_and_speculative_execution__A_magnetospheric_data_assimilation_scheme_for_space_weather_forecasting.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">63</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="64" lf="64" class="">
             <div class="block">
-              <p>Weigel, R.S., T. Detman, E.J. Rigler, and D.N. Baker, Decision theory and the analysis of rare event space weather forecasts, <em>Space Weather</em>, 2006, doi:10.1029/2005SW000157, <a href="Weigel_2006_Decision_theory_and_the_analysis_of_rare_event_space_weather_forecasts.pdf">pdf</a>.</p>
+              <p padlength="0" lo="64" lf="64" class="">Weigel, R.S., T. Detman, E.J. Rigler, and D.N. Baker, Decision theory and the analysis of rare event space weather forecasts, <em type="md" marker="*">Space Weather</em>, 2006, doi:10.1029/2005SW000157, <a href="pubs/Weigel_2006_Decision_theory_and_the_analysis_of_rare_event_space_weather_forecasts.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">64</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="65" lf="65" class="">
             <div class="block">
-              <p>Wiltberger, M., Weigel, R.S., Gehmeyr, M., Guild, T., Analysis and Visualization of Space Science Models Outputs and Data with CISM-DX, <em>Journal of Geophysical Research</em>, 2005, doi:10.1029/2004JA010956, <a href="Wiltberger_2005_Analysis_and_visualization_of_space_science_model_output_and_data_with_CISM-DX.pdf">pdf</a>.</p>
+              <p padlength="0" lo="65" lf="65" class="">Wiltberger, M., Weigel, R.S., Gehmeyr, M., Guild, T., Analysis and Visualization of Space Science Models Outputs and Data with CISM-DX, <em type="md" marker="*">Journal of Geophysical Research</em>, 2005, doi:10.1029/2004JA010956, <a href="pubs/Wiltberger_2005_Analysis_and_visualization_of_space_science_model_output_and_data_with_CISM-DX.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">65</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="66" lf="66" class="">
             <div class="block">
-              <p>Sitnov, M.I, A.Y. Ukhorskiy, A.S. Sharma, and R.S. Weigel, Roles of Chaos, Self-Organized Criticality and Phase Transitions in Magnetospheric Physics, in <em>Multiscale Coupling of Sun-Earth Processes, Liu</em>, A.T.Y., Y. Kamide, and G. Consolini eds., 2005, doi:10.1016/B978-044451881-1/50015-0, <a href="Sitnov_2005_Roles_of_Chaos_Self-Organized_Criticality_and_Phase_Transitios_in_Magnetospheric_Physics.pdf">pdf</a>.</p>
+              <p padlength="0" lo="66" lf="66" class="">Sitnov, M.I, A.Y. Ukhorskiy, A.S. Sharma, and R.S. Weigel, Roles of Chaos, Self-Organized Criticality and Phase Transitions in Magnetospheric Physics, in <em type="md" marker="*">Multiscale Coupling of Sun-Earth Processes, Liu</em>, A.T.Y., Y. Kamide, and G. Consolini eds., 2005, doi:10.1016/B978-044451881-1/50015-0, <a href="pubs/Sitnov_2005_Roles_of_Chaos_Self-Organized_Criticality_and_Phase_Transitios_in_Magnetospheric_Physics.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">66</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="67" lf="67" class="">
             <div class="block">
-              <p>Weigel, R.S., D.N. Baker, D. Vassiliadis, and E.J. Rigler, Predictability of Geomagnetic Fluctuations Based on Solar Wind Conditions, <em>IEEE Transactions on Plasma Science</em>, 2004 doi:10.1109/TPS.2004.830992, <a href="Weigel_2004_Predictability_of_Large_Geomagnetic_Disturbances_Based_on_Solar_Wind_Conditions.pdf">pdf</a>.</p>
+              <p padlength="0" lo="67" lf="67" class="">Weigel, R.S., D.N. Baker, D. Vassiliadis, and E.J. Rigler, Predictability of Geomagnetic Fluctuations Based on Solar Wind Conditions, <em type="md" marker="*">IEEE Transactions on Plasma Science</em>, 2004 doi:10.1109/TPS.2004.830992, <a href="pubs/Weigel_2004_Predictability_of_Large_Geomagnetic_Disturbances_Based_on_Solar_Wind_Conditions.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">67</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="68" lf="68" class="">
             <div class="block">
-              <p>Baker, D.N., Weigel, R.S., Rigler, E.J., McPherron, R.L., Vassiliadis, D., Arge, C.N., Siscoe, G.L., and Spence, H.E., Sun-to-magnetosphere modeling: CISM forecast model development using linked empirical methods, <em>Journal of Atmospheric and Solar-Terrestrial Physics</em>, 2004, doi:10.1016/j.jastp.2004.04.011, <a href="Baker_2004_Sun-to-magnetosphere_modeling__CISM_forecast_model_development_using_linked_empirical_methods.pdf">pdf</a>.</p>
+              <p padlength="0" lo="68" lf="68" class="">Baker, D.N., Weigel, R.S., Rigler, E.J., McPherron, R.L., Vassiliadis, D., Arge, C.N., Siscoe, G.L., and Spence, H.E., Sun-to-magnetosphere modeling: CISM forecast model development using linked empirical methods, <em type="md" marker="*">Journal of Atmospheric and Solar-Terrestrial Physics</em>, 2004, doi:10.1016/j.jastp.2004.04.011, <a href="pubs/Baker_2004_Sun-to-magnetosphere_modeling__CISM_forecast_model_development_using_linked_empirical_methods.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">68</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="69" lf="69" class="">
             <div class="block">
-              <p>Rigler, E.J., Baker, D.N., Weigel, R.S., Vassiliadis, D., Klimas, A.J., Adaptive linear prediction of radiation belt electrons using the Kalman filter, <em>Space Weather</em>, 2004, doi:10.1029/2003SW000036, <a href="Rigler_2004_Adaptive_linear_prediction_of_radiation_belt_electrons_using_the_Kalman_filter.pdf">pdf</a>.</p>
+              <p padlength="0" lo="69" lf="69" class="">Rigler, E.J., Baker, D.N., Weigel, R.S., Vassiliadis, D., Klimas, A.J., Adaptive linear prediction of radiation belt electrons using the Kalman filter, <em type="md" marker="*">Space Weather</em>, 2004, doi:10.1029/2003SW000036, <a href="pubs/Rigler_2004_Adaptive_linear_prediction_of_radiation_belt_electrons_using_the_Kalman_filter.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">69</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="70" lf="70" class="">
             <div class="block">
-              <p>Spence, H., Baker, D., Burns, A., Guild, T., Huang, C.-L., Siscoe, G., and Weigel, R., Center for integrated space weather modeling metrics plan and initial model validation results, <em>Journal of Atmospheric and Solar-Terrestrial Physics</em>, 2004, doi:10.1016/j.jastp.2004.03.029, <a href="Siscoe_2004_Roles_of_empirical_modeling_within_CISM.pdf">pdf</a>.</p>
+              <p padlength="0" lo="70" lf="70" class="">Spence, H., Baker, D., Burns, A., Guild, T., Huang, C.-L., Siscoe, G., and Weigel, R., Center for integrated space weather modeling metrics plan and initial model validation results, <em type="md" marker="*">Journal of Atmospheric and Solar-Terrestrial Physics</em>, 2004, doi:10.1016/j.jastp.2004.03.029, <a href="pubs/Siscoe_2004_Roles_of_empirical_modeling_within_CISM.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">70</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="71" lf="71" class="">
             <div class="block">
-              <p>Siscoe, G., Baker, D., Weigel, R., Hughes, J., and Spence, H., Roles of empirical modeling within CISM, <em>Journal of Atmospheric and Solar-Terrestrial Physics</em>, 2004, doi:10.1016/j.jastp.2004.03.028, <a href="Siscoe_2004_Roles_of_empirical_modeling_within_CISM.pdf">pdf</a>.</p>
+              <p padlength="0" lo="71" lf="71" class="">Siscoe, G., Baker, D., Weigel, R., Hughes, J., and Spence, H., Roles of empirical modeling within CISM, <em type="md" marker="*">Journal of Atmospheric and Solar-Terrestrial Physics</em>, 2004, doi:10.1016/j.jastp.2004.03.028, <a href="pubs/Siscoe_2004_Roles_of_empirical_modeling_within_CISM.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">71</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="72" lf="72" class="">
             <div class="block">
-              <p>Vassiliadis, D., Weigel, R.S., Baker, D.N., Kanekal, S.G., and Klimas, A..J., Probing the solar wind-inner magnetospheric coupling: validation of relativistic electron flux models, <em>Journal of Atmospheric and Solar-Terrestrial Physics</em>, 2004, doi:10.1016/j.jastp.2004.03.025, <a href="Vassiliadis_2004_Probing_the_solar_wind-inner_magnetospheric_coupling__validation_of_relativistic_electron_flux_models.pdf">pdf</a>.</p>
+              <p padlength="0" lo="72" lf="72" class="">Vassiliadis, D., Weigel, R.S., Baker, D.N., Kanekal, S.G., and Klimas, A..J., Probing the solar wind-inner magnetospheric coupling: validation of relativistic electron flux models, <em type="md" marker="*">Journal of Atmospheric and Solar-Terrestrial Physics</em>, 2004, doi:10.1016/j.jastp.2004.03.025, <a href="pubs/Vassiliadis_2004_Probing_the_solar_wind-inner_magnetospheric_coupling__validation_of_relativistic_electron_flux_models.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">72</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="73" lf="73" class="">
             <div class="block">
-              <p>Weigel, R.S., D.N. Baker, Probability Distribution Invariance of 1-Minute Auroral-Zone Geomagnetic Field Fluctuations, <em>Geophysical Research Letters</em>, 2004, doi:10.1029/2003GL018470, <a href="Weigel_2003_Probability_distribution_invariance_of_1-minute_auroral-zone_geomagnetic_field_fluctuations.pdf">pdf</a>.</p>
+              <p padlength="0" lo="73" lf="73" class="">Weigel, R.S., D.N. Baker, Probability Distribution Invariance of 1-Minute Auroral-Zone Geomagnetic Field Fluctuations, <em type="md" marker="*">Geophysical Research Letters</em>, 2004, doi:10.1029/2003GL018470, <a href="pubs/Weigel_2003_Probability_distribution_invariance_of_1-minute_auroral-zone_geomagnetic_field_fluctuations.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">73</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="74" lf="74" class="">
             <div class="block">
-              <p>Weigel, R.S., D. Vassiliadis, and A.J. Klimas, Solar-Wind Coupling to Ground Magnetic Fields and their Time Derivatives, <em>Geophysical Research Letters</em>, 2003, doi:10.1029/2002JA009627, <a href="Weigel_2003_Solar_wind_coupling_to_and_predictability_of_ground_magnetic_fields_and_their_time_derivatives.pdf">pdf</a>.</p>
+              <p padlength="0" lo="74" lf="74" class="">Weigel, R.S., D. Vassiliadis, and A.J. Klimas, Solar-Wind Coupling to Ground Magnetic Fields and their Time Derivatives, <em type="md" marker="*">Geophysical Research Letters</em>, 2003, doi:10.1029/2002JA009627, <a href="pubs/Weigel_2003_Solar_wind_coupling_to_and_predictability_of_ground_magnetic_fields_and_their_time_derivatives.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">74</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="75" lf="75" class="">
             <div class="block">
-              <p>Weigel, R.S., D. Vassiliadis, and A.J. Klimas, Precursor analysis and Prediction of Large-Amplitude Energetic Electron Events, <em>Space Weather</em>, 2003, doi:10.1029/2003SW00002, <a href="Weigel_2003_Precursor_analysis_and_prediction_of_large-amplitude_relativistic_electron_fluxes.pdf">pdf</a>.</p>
+              <p padlength="0" lo="75" lf="75" class="">Weigel, R.S., D. Vassiliadis, and A.J. Klimas, Precursor analysis and Prediction of Large-Amplitude Energetic Electron Events, <em type="md" marker="*">Space Weather</em>, 2003, doi:10.1029/2003SW00002, <a href="pubs/Weigel_2003_Precursor_analysis_and_prediction_of_large-amplitude_relativistic_electron_fluxes.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">75</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="76" lf="76" class="">
             <div class="block">
-              <p>Horton, W., R.S. Weigel, D. Vassiliadis, and I. Doxas, Substorm Classification with the WINDMI Model, <em>Nonlinear Processes in Geophysics</em>, 2003 doi:10.5194/npg-10-363-2003, <a href="Horton_2003_Substorm_classification_with_the_WINDMI_model.pdf">pdf</a>.</p>
+              <p padlength="0" lo="76" lf="76" class="">Horton, W., R.S. Weigel, D. Vassiliadis, and I. Doxas, Substorm Classification with the WINDMI Model, <em type="md" marker="*">Nonlinear Processes in Geophysics</em>, 2003 doi:10.5194/npg-10-363-2003, <a href="pubs/Horton_2003_Substorm_classification_with_the_WINDMI_model.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">76</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="77" lf="77" class="">
             <div class="block">
-              <p>Vassiliadis, D., R.S. Weigel, A.J. Klimas, S.G. Kanekal, and R.A. Mewaldt, Modes of Energy Transfer Between the Solar Wind and the Inner Magnetosphere, <em>Physics of Plasmas</em>, 2003 doi:10.1063/1.1535938, <a href="Vassiliadis_2003_Modes_of_energy_transfer_from_the_solar_wind_to_the_inner_magnetosphere.pdf">pdf</a></p>
+              <p padlength="0" lo="77" lf="77" class="">Vassiliadis, D., R.S. Weigel, A.J. Klimas, S.G. Kanekal, and R.A. Mewaldt, Modes of Energy Transfer Between the Solar Wind and the Inner Magnetosphere, <em type="md" marker="*">Physics of Plasmas</em>, 2003 doi:10.1063/1.1535938, <a href="pubs/Vassiliadis_2003_Modes_of_energy_transfer_from_the_solar_wind_to_the_inner_magnetosphere.pdf">pdf</a></p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">77</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="78" lf="78" class="">
             <div class="block">
-              <p>Vassiliadis D, A.J. Klimas, R.S. Weigel, D.N. Baker, E.J. Rigler, S.G. Kanekal, T. Nagai, S.F. Fung, R.W.H. Friedel, T.E. Cayton, Structure of Earth’s outer radiation belt inferred from long-term electron flux dynamics, <em>Geophysical Research Letters</em>, 2003 doi:10.1029/2003GL017328, <a href="Vassiliadis_2003_Structure_of_Earths_outer_radiation_belt_inferred_from_long-term_electron_flux_dynamics.pdf">pdf</a>.</p>
+              <p padlength="0" lo="78" lf="78" class="">Vassiliadis D, A.J. Klimas, R.S. Weigel, D.N. Baker, E.J. Rigler, S.G. Kanekal, T. Nagai, S.F. Fung, R.W.H. Friedel, T.E. Cayton, Structure of Earth’s outer radiation belt inferred from long-term electron flux dynamics, <em type="md" marker="*">Geophysical Research Letters</em>, 2003 doi:10.1029/2003GL017328, <a href="pubs/Vassiliadis_2003_Structure_of_Earths_outer_radiation_belt_inferred_from_long-term_electron_flux_dynamics.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">78</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="79" lf="79" class="">
             <div class="block">
-              <p>Vassiliadis, D., A.J. Klimas, S.G. Kanekal, D.N. Baker, and R.S. Weigel, Long-Term Solar-Cycle, and Seasonal Response of Magnetospheric Energetic Electrons to the Solar Wind Speed, <em>Journal of Geophysical Research</em>, 2002, doi:10.1029/2001JA000506, <a href="Vassiliadis_2002_Long-term-average__solar_cycle__and_seasonal_response_of_magnetospheric_energetic_electrons_to_the_solar_wind_speed.pdf">pdf</a></p>
+              <p padlength="0" lo="79" lf="79" class="">Vassiliadis, D., A.J. Klimas, S.G. Kanekal, D.N. Baker, and R.S. Weigel, Long-Term Solar-Cycle, and Seasonal Response of Magnetospheric Energetic Electrons to the Solar Wind Speed, <em type="md" marker="*">Journal of Geophysical Research</em>, 2002, doi:10.1029/2001JA000506, <a href="pubs/Vassiliadis_2002_Long-term-average__solar_cycle__and_seasonal_response_of_magnetospheric_energetic_electrons_to_the_solar_wind_speed.pdf">pdf</a></p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">79</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="80" lf="80" class="">
             <div class="block">
-              <p>Doxas, I., Horton, W., and Weigel, R., Using particle simulations for parameter tuning of dynamical models of the magnetotail, <em>Journal of Atmospheric and Solar-Terrestrial Physics</em>, 2002, doi:10.1016/S1364-6826(02)00022-6, <a href="Doxas_2002_Using_particle_simulations_for_parameter_tuning_of_dynamical_models_of_the_magnetotail.pdf">pdf</a>.</p>
+              <p padlength="0" lo="80" lf="80" class="">Doxas, I., Horton, W., and Weigel, R., Using particle simulations for parameter tuning of dynamical models of the magnetotail, <em type="md" marker="*">Journal of Atmospheric and Solar-Terrestrial Physics</em>, 2002, doi:10.1016/S1364-6826(02)00022-6, <a href="pubs/Doxas_2002_Using_particle_simulations_for_parameter_tuning_of_dynamical_models_of_the_magnetotail.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">80</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="81" lf="81" class="">
             <div class="block">
-              <p>Weigel, R.S., D. Vassiliadis, and A.J. Klimas, Coupling of the Solar Wind to Temporal Fluctuations in Ground Magnetic Fields, <em>Geophysical Research Letters</em>, doi:10.1029/2002GL014740, <a href="Weigel_2002_Coupling_of_the_solar_wind_to_temporal_fluctuations_in_ground_magnetic_fields.pdf">pdf</a>.</p>
+              <p padlength="0" lo="81" lf="81" class="">Weigel, R.S., D. Vassiliadis, and A.J. Klimas, Coupling of the Solar Wind to Temporal Fluctuations in Ground Magnetic Fields, <em type="md" marker="*">Geophysical Research Letters</em>, doi:10.1029/2002GL014740, <a href="pubs/Weigel_2002_Coupling_of_the_solar_wind_to_temporal_fluctuations_in_ground_magnetic_fields.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">81</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="82" lf="82" class="">
             <div class="block">
-              <p>Horton, W., Crabtree, C., Doxas, I., and Weigel, R. S., Geomagnetic transport in the solar wind-driven nightside magnetosphere-ionosphere system, <em>Physics of Plasmas</em>, 2002. doi:10.1063/1.1499119, <a href="Horton_2002_Geomagnetic_transport_in_the_solar_wind_driven_nightside_magnetosphere%E2%80%93ionosphere_system.pdf">pdf</a>.</p>
+              <p padlength="0" lo="82" lf="82" class="">Horton, W., Crabtree, C., Doxas, I., and Weigel, R. S., Geomagnetic transport in the solar wind-driven nightside magnetosphere-ionosphere system, <em type="md" marker="*">Physics of Plasmas</em>, 2002. doi:10.1063/1.1499119, <a href="pubs/Horton_2002_Geomagnetic_transport_in_the_solar_wind_driven_nightside_magnetosphere%E2%80%93ionosphere_system.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">82</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="83" lf="83" class="">
             <div class="block">
-              <p>Horton, W., R.S. Weigel, and J.C. Sprott, Chaos and the limits of predictability of the solar-wind driven magnetosphere-ionosphere system, <em>Physics of Plasmas</em>, 2001, doi:10.1063/1.1371522, <a href="Horton_2001_Chaos_and_the_limits_of_predictability_for_the_solar-wind-driven_magnetosphere%E2%80%93ionosphere_system.pdf">pdf</a>.</p>
+              <p padlength="0" lo="83" lf="83" class="">Horton, W., R.S. Weigel, and J.C. Sprott, Chaos and the limits of predictability of the solar-wind driven magnetosphere-ionosphere system, <em type="md" marker="*">Physics of Plasmas</em>, 2001, doi:10.1063/1.1371522, <a href="pubs/Horton_2001_Chaos_and_the_limits_of_predictability_for_the_solar-wind-driven_magnetosphere%E2%80%93ionosphere_system.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">83</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="84" lf="84" class="">
             <div class="block">
-              <p>Weigel, R.S., W. Horton, T. Tajima, and T. Detman, Forecasting auroral electrojet activity from solar wind input with neural networks, <em>Geophysical Research Letters</em>, 1999. doi:10.1029/1999GL900280, <a href="Weigel_1999_Forecasting_Auroral_Electro_jet_Activity_from_Solar_Wind_Input_with_Neural_Networks.pdf">pdf</a>.</p>
+              <p padlength="0" lo="84" lf="84" class="">Weigel, R.S., W. Horton, T. Tajima, and T. Detman, Forecasting auroral electrojet activity from solar wind input with neural networks, <em type="md" marker="*">Geophysical Research Letters</em>, 1999. doi:10.1029/1999GL900280, <a href="pubs/Weigel_1999_Forecasting_Auroral_Electro_jet_Activity_from_Solar_Wind_Input_with_Neural_Networks.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">84</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="85" lf="85" class="">
             <div class="block">
-              <p>Horton, W., J.P. Smith, R. Weigel, C. Crabtree, I. Doxas, B. Goode,and J. Cary, The solar-wind driven magnetosphere-ionosphere as a complex dynamical system, <em>Physics of Plasmas</em>, 1999, doi:10.1063/1.873683, <a href="Horton_1999_The_solar-wind_driven_magnetosphere%E2%80%93ionosphere_as_a_complex_dynamical_system.pdf">pdf</a>.</p>
+              <p padlength="0" lo="85" lf="85" class="">Horton, W., J.P. Smith, R. Weigel, C. Crabtree, I. Doxas, B. Goode,and J. Cary, The solar-wind driven magnetosphere-ionosphere as a complex dynamical system, <em type="md" marker="*">Physics of Plasmas</em>, 1999, doi:10.1063/1.873683, <a href="pubs/Horton_1999_The_solar-wind_driven_magnetosphere%E2%80%93ionosphere_as_a_complex_dynamical_system.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">85</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="86" lf="86" class="">
             <div class="block">
-              <p>Horton, W., H. Vernon Wong, and R. Weigel, Interchange Trigger for Substorms in a Nonlinear Dynamics Model, <em>Physics of Space Plasmas</em>, 1998, <a href="Horton_1998_Interchange_Trigger_for_Substorms_in_a_Nonlinear_Dynamics_Model.pdf">pdf</a>.</p>
+              <p padlength="0" lo="86" lf="86" class="">Horton, W., H. Vernon Wong, and R. Weigel, Interchange Trigger for Substorms in a Nonlinear Dynamics Model, <em type="md" marker="*">Physics of Space Plasmas</em>, 1998, <a href="pubs/Horton_1998_Interchange_Trigger_for_Substorms_in_a_Nonlinear_Dynamics_Model.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">86</span></div>
             </div>
           </li>
-          <li class="">
+          <li markerlength="2" padlength="0" lo="87" lf="87" class="">
             <div class="block">
-              <p>Weigel, R. and E. Atlee Jackson, Experimental implementation of migrations in multiple-attractor systems, <em>International Journal of Bifurcations and Chaos</em>, 1998 doi:10.1142/S0218127498000127, <a href="Weigel_1998_EXPERIMENTAL_IMPLEMENTATION_OF_MIGRATIONS_IN_MULTIPLE-ATTRACTOR_SYSTEMS.pdf">pdf</a>.</p>
+              <p padlength="0" lo="87" lf="87" class="">Weigel, R. and E. Atlee Jackson, Experimental implementation of migrations in multiple-attractor systems, <em type="md" marker="*">International Journal of Bifurcations and Chaos</em>, 1998 doi:10.1142/S0218127498000127, <a href="pubs/Weigel_1998_EXPERIMENTAL_IMPLEMENTATION_OF_MIGRATIONS_IN_MULTIPLE-ATTRACTOR_SYSTEMS.pdf">pdf</a>.</p>
+              <div class="block-info" style="display: none;"><span class="line-numbers">87</span></div>
             </div>
           </li>
         </ul>
+        <div class="block-info" style="display: none;"><span class="line-numbers">31-87</span></div>
       </div>
     </div>
   </div>
