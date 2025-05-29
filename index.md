@@ -29,8 +29,8 @@ Magnetospheric physics and geomagnetism, space weather, and solar wind/magnetosp
 
 * A. Pulkkinen, P. Schuck, E. Bernabeu, R.S. Weigel, and R. Arrit, A novel approach for geoelectric field response scaling factors used in geomagnetic storm hazard assessments, *Space Weather*, 2025, [preprint](https://essopenarchive.org/doi/full/10.22541/essoar.173940342.27470210).
 * Stephens, G. K., M. I. Sitnov, R. S. Weigel, and N. A. Tsyganenko, A. J., Empirical reconstruction of pre-1995 extreme storms using ML-derived solar wind inputs. *Space Weather*, 2025, [preprint](https://essopenarchive.org/users/567759/articles/1254064-empirical-reconstruction-of-pre-1995-extreme-storms-using-ml-derived-solar-wind-inputs).
-* Winter, E.L and R.S. Weigel, Recursive Formula for the Trial Function Boundary Function, *Computing Open*, 2025, doi:10.1142/S2972370125500023, [pdf](Winter_2025_Recursive_Formula_for_the_Trial_Function_Boundary_Function.pdf).
-* Thomas, D. and R.S. Weigel, A. Pulkkinen, P.W. Schuck, D. T. Welling, C. M. Ngwira, What Drove the Carrington Event? An Analysis of Currents and Geospace Regions, *Journal of Geophysical Research*, 2024, doi:10.1029/2024JA032556. [pdf](Thomas_2024_What_Drove_the_Carrington_Event-An_Analysis_of_Currents_and_Geospace_Regions.pdf).
+* Winter, E.L and R.S. Weigel, Recursive Formula for the Trial Function Boundary Function, *Computing Open*, 2025, doi:10.1142/S2972370125500023, [pdf](pubs/Winter_2025_Recursive_Formula_for_the_Trial_Function_Boundary_Function.pdf).
+* Thomas, D. and R.S. Weigel, A. Pulkkinen, P.W. Schuck, D. T. Welling, C. M. Ngwira, What Drove the Carrington Event? An Analysis of Currents and Geospace Regions, *Journal of Geophysical Research*, 2024, doi:10.1029/2024JA032556, [pdf](pubs/Thomas_2024_What_Drove_the_Carrington_Event-An_Analysis_of_Currents_and_Geospace_Regions.pdf).
 * Stephens, G.K., M.I. Sitnov, R.S. Weigel, D.L. Turner, N.A. Tsyganenko, A.J. Rogers, K. Genestreti, and J. A. Slavin, Global structure of magnetotail reconnection revealed by mining space magnetometer data, *Journal of Geophysical Research--Space Physics*, 2023, doi:10.1029/2022JA031066, [pdf](pubs/Stephens_2023_Global_structure_of_magnetotail_reconnection_revealed_by_mining_space_magnetometer_data.pdf).
 * Winter, E., and R.S. Weigel, `nnde`: A Python package for solving differential equations using neural networks, *Journal of Open Source Software*, 2022, doi:10.21105/joss.03465, [pdf](pubs/Winter_2022_nnde_A_Python_package_for_solving_differential_equations_using_neural_networks.pdf).
 * Weigel, R.S., Vandegriff, J.V., Faden, J.B., et al., A Standard for Accessing Heliophysics Time Series Data, *Journal of Geophysical Research--Space Physics*, 2021, doi:10.1029/2021JA029534, [pdf](pubs/Weigel_2021_HAPI-An_API_Standard_for_Accessing_Heliophysics_Time_Series_Data.pdf).
@@ -99,8 +99,6 @@ _Space Weather_, 2017, doi:10.1002/2016SW001504, [pdf](pubs/Weigel_2017_A_compar
 * McCracken, James, GMU, Physics, PhD, 2015, Chair and Director Outstanding Physics & Astronomy Dissertation Award, “Exploratory Causal Analysis in Bivariate Time Series Data”
 
 * Veibell, Victoir, GMU, CSI, PhD, 2016, Chair and Director, “Statistical Modeling of Earth's plasmasphere”
-
-* Hess Webber, Shea, GMU, CSI, PhD, 2016 Chair, “Coronal Holes and Solar f-Mode Wave  Scattering off Linear Boundaries”
 
 * Battams, Karl, GMU, CSI, PhD, 2018, Chair and Director, “Reduction and Synopses of Multi-Scale Time Series with Applications to Massive Solar Data”
 
