@@ -27,7 +27,11 @@ Magnetospheric physics and geomagnetism, space weather, and solar wind/magnetosp
 
 # Publications
 
-* Stephens, G.K., M.I. Sitnov, R.S. Weigel, D.L. Turner, N.A. Tsyganenko, A.J. Rogers, K. Genestreti, and J. A. Slavin, Global structure of magnetotail reconnection revealed by mining space magnetometer data, Journal of Geophysical Research--Space Physics, 2023, doi:10.1029/2022JA031066, [pdf](pubs/Stephens_2023_Global_structure_of_magnetotail_reconnection_revealed_by_mining_space_magnetometer_data.pdf).
+* A. Pulkkinen, P. Schuck, E. Bernabeu, R.S. Weigel, and R. Arrit, A novel approach for geoelectric field response scaling factors used in geomagnetic storm hazard assessments, *Space Weather*, 2025, [preprint](https://essopenarchive.org/doi/full/10.22541/essoar.173940342.27470210).
+* Stephens, G. K., M. I. Sitnov, R. S. Weigel, and N. A. Tsyganenko, A. J., Empirical reconstruction of pre-1995 extreme storms using ML-derived solar wind inputs. *Space Weather*, 2025, [preprint](https://essopenarchive.org/users/567759/articles/1254064-empirical-reconstruction-of-pre-1995-extreme-storms-using-ml-derived-solar-wind-inputs).
+* Winter, E.L and R.S. Weigel, Recursive Formula for the Trial Function Boundary Function, *Computing Open*, 2025, doi:10.1142/S2972370125500023, [pdf](Winter_2025_Recursive_Formula_for_the_Trial_Function_Boundary_Function.pdf).
+* Thomas, D. and R.S. Weigel, A. Pulkkinen, P.W. Schuck, D. T. Welling, C. M. Ngwira, What Drove the Carrington Event? An Analysis of Currents and Geospace Regions, *Journal of Geophysical Research*, 2024, doi:10.1029/2024JA032556. [pdf](Thomas_2024_What_Drove_the_Carrington_Event-An_Analysis_of_Currents_and_Geospace_Regions.pdf).
+* Stephens, G.K., M.I. Sitnov, R.S. Weigel, D.L. Turner, N.A. Tsyganenko, A.J. Rogers, K. Genestreti, and J. A. Slavin, Global structure of magnetotail reconnection revealed by mining space magnetometer data, *Journal of Geophysical Research--Space Physics*, 2023, doi:10.1029/2022JA031066, [pdf](pubs/Stephens_2023_Global_structure_of_magnetotail_reconnection_revealed_by_mining_space_magnetometer_data.pdf).
 * Winter, E., and R.S. Weigel, `nnde`: A Python package for solving differential equations using neural networks, *Journal of Open Source Software*, 2022, doi:10.21105/joss.03465, [pdf](pubs/Winter_2022_nnde_A_Python_package_for_solving_differential_equations_using_neural_networks.pdf).
 * Weigel, R.S., Vandegriff, J.V., Faden, J.B., et al., A Standard for Accessing Heliophysics Time Series Data, *Journal of Geophysical Research--Space Physics*, 2021, doi:10.1029/2021JA029534, [pdf](pubs/Weigel_2021_HAPI-An_API_Standard_for_Accessing_Heliophysics_Time_Series_Data.pdf).
 * Blake, S.P., Pulkkinen, Schuck, P.W., Glocer, A., D.M. Oliveira, D. Welling, R.S. Weigel, G. Quaresima, Recreating the Horizontal Magnetic Field at Colaba during the Carrington Event with Geospace Simulations, *Space Weather*, 2021, doi:10.1029/2020SW002585, [pdf](pubs/Blake_2019_Recreating_the_Horizonta_Magnetic_Field_at_Colaba_During_the_Carrington_Event_With_Geospace.pdf).
@@ -85,3 +89,24 @@ _Space Weather_, 2017, doi:10.1002/2016SW001504, [pdf](pubs/Weigel_2017_A_compar
 * Horton, W., J.P. Smith, R. Weigel, C. Crabtree, I. Doxas, B. Goode,and J. Cary, The solar-wind driven magnetosphere-ionosphere as a complex dynamical system, *Physics of Plasmas*, 1999, doi:10.1063/1.873683, [pdf](pubs/Horton_1999_The_solar-wind_driven_magnetosphere–ionosphere_as_a_complex_dynamical_system.pdf).
 * Horton, W., H. Vernon Wong, and R. Weigel, Interchange Trigger for Substorms in a Nonlinear Dynamics Model, *Physics of Space Plasmas*, 1998,  [pdf](pubs/Horton_1998_Interchange_Trigger_for_Substorms_in_a_Nonlinear_Dynamics_Model.pdf).
 * Weigel, R. and E. Atlee Jackson, Experimental implementation of migrations in multiple-attractor systems, *International Journal of Bifurcations and Chaos*, 1998 doi:10.1142/S0218127498000127, [pdf](pubs/Weigel_1998_EXPERIMENTAL_IMPLEMENTATION_OF_MIGRATIONS_IN_MULTIPLE-ATTRACTOR_SYSTEMS.pdf).
+
+# PhD Students
+
+* Curtis, Brian, GMU, CSI, PhD, 2014, Chair and Director, “Validation of Magnetospheric Magnetohydrodynamic Models”
+
+* Kercher, Andrew, GMU, CSI, PhD, 2014, Chair and Director, “Computational Methods for Ideal Magnetohydrodynamics”
+
+* McCracken, James, GMU, Physics, PhD, 2015, Chair and Director Outstanding Physics & Astronomy Dissertation Award, “Exploratory Causal Analysis in Bivariate Time Series Data”
+
+* Veibell, Victoir, GMU, CSI, PhD, 2016, Chair and Director, “Statistical Modeling of Earth's plasmasphere”
+
+* Hess Webber, Shea, GMU, CSI, PhD, 2016 Chair, “Coronal Holes and Solar f-Mode Wave  Scattering off Linear Boundaries”
+
+* Battams, Karl, GMU, CSI, PhD, 2018, Chair and Director, “Reduction and Synopses of Multi-Scale Time Series with Applications to Massive Solar Data”
+
+* Harvey, Christine, GMU, CSI, PhD, 2019, Director “Modeling, Simulation, and Analysis of the US Organ Transplant System”.
+
+* Winter, Eric, GMU, Physics, PhD, 2024, Chair and Director, “Applications of Neural Networks to Solve the Differential Equations of Magnetohydrodynamics”.
+
+* Stephens, Grant, GMU, Physics, PhD, 2024, Chair and Director “Revealing the Global Morphology of the Magnetosphere During Storms and Substorms using Data-Mining-Driven Empirical Magnetic Field Modeling”
+
