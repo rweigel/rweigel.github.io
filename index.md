@@ -27,9 +27,9 @@ Magnetospheric physics and geomagnetism, space weather, and solar wind/magnetosp
 
 # Publications
 
-* A. Pulkkinen, P. Schuck, E. Bernabeu, R.S. Weigel, and R. Arritt, A novel approach for geoelectric field response scaling factors used in geomagnetic storm hazard assessments, *Space Weather*, 2025, [doi:10.1029/2025SW004382](https://doi.org/10.1029/2025SW004382), [pdf](pubs/2025_Pulkkinen_A_Novel_Approach_for_Geoelectric_Field_Response_Scaling_Factors_Used_in_Geomagnetic_Storm_Hazzard_Assessments.pdf).
+* A. Pulkkinen, P. Schuck, E. Bernabeu, R.S. Weigel, and R. Arritt, A novel approach for geoelectric field response scaling factors used in geomagnetic storm hazard assessments, *Space Weather*, 2025, [doi:10.1029/2025SW004382](https://doi.org/10.1029/2025SW004382), [pdf](pubs/Pulkkinen_2025_A_Novel_Approach_for_Geoelectric_Field_Response_Scaling_Factors_Used_in_Geomagnetic_Storm_Hazzard_Assessments.pdf).
 
-* Stephens, G. K., M. I. Sitnov, R. S. Weigel, and N. A. Tsyganenko, A. J., Empirical reconstruction of pre-1995 extreme storms using ML-derived solar wind inputs. *Space Weather*, 2025, [doi:10.1029/2024SW004293](https://doi.org/doi:10.1029/2024SW004293), [pdf](2025_Stephens_Empirical_Reconstruction_of_Pre‐1995_Extreme_Storms_Using_ML‐Derived_Solar_Wind_Inputs.pdf).
+* Stephens, G. K., M. I. Sitnov, R. S. Weigel, and N. A. Tsyganenko, A. J., Empirical reconstruction of pre-1995 extreme storms using ML-derived solar wind inputs. *Space Weather*, 2025, [doi:10.1029/2024SW004293](https://doi.org/doi:10.1029/2024SW004293), [pdf](Stephens_2025_Empirical_Reconstruction_of_Pre‐1995_Extreme_Storms_Using_ML‐Derived_Solar_Wind_Inputs.pdf).
 
 * Winter, E.L and R.S. Weigel, Recursive Formula for the Trial Function Boundary Function, *Computing Open*, 2025, [doi:10.1142/S2972370125500023](https://doi.org/10.1142/S2972370125500023), [pdf](pubs/Winter_2025_Recursive_Formula_for_the_Trial_Function_Boundary_Function.pdf).
 
