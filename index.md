@@ -27,7 +27,11 @@ Magnetospheric physics and geomagnetism, space weather, and solar wind/magnetosp
 
 # Publications
 
-* A. Pulkkinen, P. Schuck, E. Bernabeu, R.S. Weigel, and R. Arritt, A novel approach for geoelectric field response scaling factors used in geomagnetic storm hazard assessments, *Space Weather*, 2025, [doi:10.1029/2025SW004382](https://doi.org/10.1029/2025SW004382), [pdf](pubs/Pulkkinen_2025_A_Novel_Approach_for_Geoelectric_Field_Response_Scaling_Factors_Used_in_Geomagnetic_Storm_Hazzard_Assessments.pdf).
+* Wilkerson, L.A., R. S. Weigel, D. Thomas, D. Bor, E. J. Oughton, C. T. Gaunt, C. C. Balch, M. J. Wiltberger, A. Pulkkinen, GIC--Related Observations During the May 2024 Geomagnetic Storm in the United States, _Submitted_, 2025,  [pdf](https://arxiv.org/abs/2507.07009).
+
+* Thomas, D., Weigel, R.S., Quaresima, G., Pulkkinen, A., and D.T. Welling, ∇ · B and outer boundary errors and Biot-Savart in magnetosphere MHD simulations, _Submitted_, 2025, [pdf](https://arxiv.org/abs/2508.18405).
+
+* Pulkkinen, A., P. Schuck, E. Bernabeu, R.S. Weigel, and R. Arritt, A novel approach for geoelectric field response scaling factors used in geomagnetic storm hazard assessments, *Space Weather*, 2025, [doi:10.1029/2025SW004382](https://doi.org/10.1029/2025SW004382), [pdf](pubs/Pulkkinen_2025_A_Novel_Approach_for_Geoelectric_Field_Response_Scaling_Factors_Used_in_Geomagnetic_Storm_Hazzard_Assessments.pdf).
 
 * Stephens, G. K., M. I. Sitnov, R. S. Weigel, and N. A. Tsyganenko, A. J., Empirical reconstruction of pre-1995 extreme storms using ML-derived solar wind inputs. *Space Weather*, 2025, [doi:10.1029/2024SW004293](https://doi.org/doi:10.1029/2024SW004293), [pdf](Stephens_2025_Empirical_Reconstruction_of_Pre‐1995_Extreme_Storms_Using_ML‐Derived_Solar_Wind_Inputs.pdf).
 
@@ -92,11 +96,15 @@ _Space Weather_, 2017, doi:10.1002/2016SW001504](https://doi.org/10.1002/2016SW0
 
 * Borne, K., Wallin, J., and Weigel, R., The New Computational and Data Sciences Undergraduate Program at George Mason University, *The International Conference on Computational Science*, 2009, doi:10.1007/978-3-642-01973-9_9, [pdf](pubs/Borne_2009_The_New_Computational_and_Data_Sciences_Program_at_GMU.pdf).
 * Weigel, R.S., D.N. Baker, D. Aaron Roberts, and T. King, Using Virtual Observatories for Heliophysics Research, *Eos*, 2009, doi:10.1029/2009EO470001, [pdf](pubs/Weigel_2009_Using_Virtual_Observatories_for_Heliophysics_Research.pdf).
+
 * Wiltberger, M., R.S. Weigel, W. Lotko, and J A. Fedder, Modeling seasonal variations of auroral particle precipitation in a global-scale magnetosphere-ionosphere simulation, *Journal of Geophysical Research*, 2009, doi:10.1029/2008JA013108, [pdf](pubs/Wiltberger_2009_Modeling_seasonal_variations_of_auroral_particle_precipitation_in_a_global-scale_magnetosphere-ionosphere_simulation.pdf).
 
 * Weigel, R.S., Solar wind time history contribution to the day-of-year variation in geomagnetic activity, *Journal of Geophysical Research*, 2007, doi:10.1029/2007JA012324, [pdf](pubs/Weigel_2007_Solar_wind_time_history_contribution_to_the_day-of-year_variation_in_geomagnetic_activity.pdf).
+
 * Baker, D.N., Wiltberger, M.J., Weigel, R.S., and Elkington, S.R. Present status and future challenges of modeling the Sun Earth end-to-end system, *Journal of Atmospheric and Solar-Terrestrial Physics*, 2007, doi:10.1016/j.jastp.2006.07.017, [pdf](pubs/Baker_2007_Present_status_and_future_challenges_of_modeling_the_Sun–Earth_end-to-end_system.pdf).
+
 * Doxas, I., W. Horton, J. Lyon, M. Wiltberger, R. S. Weigel Branch prediction and speculative execution: A magnetospheric data assimilation scheme for space weather forecasting, *Space Weather*, 2007, doi:/10.1029/2006SW000236, [pdf](pubs/Doxas_2007_Branch_prediction_and_speculative_execution__A_magnetospheric_data_assimilation_scheme_for_space_weather_forecasting.pdf).
+
 * Weigel, R.S., T. Detman, E.J. Rigler, and D.N. Baker, Decision theory and the analysis of rare event space weather forecasts, *Space Weather*, 2006, doi:10.1029/2005SW000157, [pdf](pubs/Weigel_2006_Decision_theory_and_the_analysis_of_rare_event_space_weather_forecasts.pdf).
 * Wiltberger, M., Weigel, R.S., Gehmeyr, M., Guild, T., Analysis and Visualization of Space Science Models Outputs and Data with CISM-DX, *Journal of Geophysical Research*, 2005, doi:10.1029/2004JA010956, [pdf](pubs/Wiltberger_2005_Analysis_and_visualization_of_space_science_model_output_and_data_with_CISM-DX.pdf).
 * Sitnov, M.I, A.Y. Ukhorskiy, A.S. Sharma, and R.S. Weigel, Roles of Chaos, Self-Organized Criticality and Phase Transitions in Magnetospheric Physics, in *Multiscale Coupling of Sun-Earth Processes, Liu*, A.T.Y., Y. Kamide, and G. Consolini eds., 2005, doi:10.1016/B978-044451881-1/50015-0, [pdf](pubs/Sitnov_2005_Roles_of_Chaos_Self-Organized_Criticality_and_Phase_Transitios_in_Magnetospheric_Physics.pdf).
