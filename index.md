@@ -29,7 +29,15 @@ Magnetospheric physics and geomagnetism, space weather, and solar wind/magnetosp
 
 * Wilkerson, L.A., R. S. Weigel, D. Thomas, D. Bor, E. J. Oughton, C. T. Gaunt, C. C. Balch, M. J. Wiltberger, A. Pulkkinen, GIC--Related Observations During the May 2024 Geomagnetic Storm in the United States, _Submitted_, 2025 | [pdf](https://arxiv.org/abs/2507.07009).
 
-* Thomas, D., Weigel, R.S., Quaresima, G., Pulkkinen, A., and D.T. Welling, ∇·B and outer boundary errors and Biot-Savart in magnetosphere MHD simulations, *Journal of Geophysical Research--Space Physics*, 2025, [doi:10.1029/2025JA034424](https://doi.org/10.1029/2025JA034424) | [pdf](pubs/Thomas_2025_Div_B_Outer_Boundary_and_Biot_Savart_in_Magnetosphere_MHD_Simulations.pdf).
+* Thomas, D., Weigel, R.S., Quaresima, G., Pulkkinen, A., and D.T. Welling, ∇·B and outer boundary errors and Biot-Savart in magnetosphere MHD simulations, *Journal of Geophysical Research--Space Physics*, 2025,
+[doi:10.1029/2025JA034424](https://doi.org/10.1029/2025JA034424)
+|
+[pdf](pubs/Thomas_2025_Div_B_Outer_Boundary_and_Biot_Savart_in_Magnetosphere_MHD_Simulations.pdf).
+
+* Stephens, G.K., Weigel, R.S., Sitnov, M.I., and Tsyganenko, N.A., Reconstructing Magnetotail Reconnection Events Using Data Mining is Feasible and Repeatable, *Journal of Geophysical Research--Machine Learning and Computation*, 2025,
+[doi:10.1029/2025JH000965](http://dx.doi.org/10.1029/2025JH000965)
+|
+[pdf](Stephens_2025_Reconstructing_Magnetotail_Reconnection_Events_Using_Data_Mining_is_Feasible_and_Repeatable.pdf).
 
 * Pulkkinen, A., P. Schuck, E. Bernabeu, R.S. Weigel, and R. Arritt, A novel approach for geoelectric field response scaling factors used in geomagnetic storm hazard assessments, *Space Weather*, 2025, [doi:10.1029/2025SW004382](https://doi.org/10.1029/2025SW004382) | [pdf](pubs/Pulkkinen_2025_A_Novel_Approach_for_Geoelectric_Field_Response_Scaling_Factors_Used_in_Geomagnetic_Storm_Hazzard_Assessments.pdf).
 
@@ -104,7 +112,7 @@ _Space Weather_, 2017, doi:10.1002/2016SW001504](https://doi.org/10.1002/2016SW0
 
 * Baker, D.N., Wiltberger, M.J., Weigel, R.S., and Elkington, S.R. Present status and future challenges of modeling the Sun Earth end-to-end system, *Journal of Atmospheric and Solar-Terrestrial Physics*, 2007, [doi:10.1016/j.jastp.2006.07.017](https://doi.org/10.1016/j.jastp.2006.07.017) | [pdf](pubs/Baker_2007_Present_status_and_future_challenges_of_modeling_the_Sun–Earth_end-to-end_system.pdf).
 
-* Doxas, I., W. Horton, J. Lyon, M. Wiltberger, R. S. Weigel Branch prediction and speculative execution: A magnetospheric data assimilation scheme for space weather forecasting, *Space Weather*, 2007, [doi:10.1029/2006SW000236](https://doi.org/10.1029/2006SW000236) | [pdf](pubs/Doxas_2007_Branch_prediction_and_speculative_execution__A_magnetospheric_data_assimilation_scheme_for_space_weather_forecasting.pdf).
+* Doxas, I., W. Horton, J. Lyon, M. Wiltberger, R. S. Weigel, Branch prediction and speculative execution: A magnetospheric data assimilation scheme for space weather forecasting, *Space Weather*, 2007, [doi:10.1029/2006SW000236](https://doi.org/10.1029/2006SW000236) | [pdf](pubs/Doxas_2007_Branch_prediction_and_speculative_execution__A_magnetospheric_data_assimilation_scheme_for_space_weather_forecasting.pdf).
 
 * Weigel, R.S., T. Detman, E.J. Rigler, and D.N. Baker, Decision theory and the analysis of rare event space weather forecasts, *Space Weather*, 2006, [doi:10.1029/2005SW000157](https://doi.org/10.1029/2005SW000157) | [pdf](pubs/Weigel_2006_Decision_theory_and_the_analysis_of_rare_event_space_weather_forecasts.pdf).
 
