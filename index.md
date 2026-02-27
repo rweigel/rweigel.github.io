@@ -133,7 +133,7 @@ _Space Weather_, 2017, doi:10.1002/2016SW001504](https://doi.org/10.1002/2016SW0
 
 * Weigel, R.S., D. Vassiliadis, and A.J. Klimas, Precursor analysis and Prediction of Large-Amplitude Energetic Electron Events, *Space Weather*, 2003, doi:10.1029/2003SW00002, [pdf](pubs/Weigel_2003_Precursor_analysis_and_prediction_of_large-amplitude_relativistic_electron_fluxes.pdf).
 
-Weigel, R.S., D. Vassiliadis, and A.J. Klimas, Solar-Wind Coupling to and Predictability of Ground Magnetic Fields and their Time Derivatives, Journal of Geophysical Research, 2003,  doi:10.1029/2002JA009627, [pdf](Weigel_2003_Solar_wind_coupling_to_and_predictability_of_ground_magnetic_fields_and_their_time_derivatives.pdf).
+* Weigel, R.S., D. Vassiliadis, and A.J. Klimas, Solar-Wind Coupling to and Predictability of Ground Magnetic Fields and their Time Derivatives, Journal of Geophysical Research, 2003,  doi:10.1029/2002JA009627, [pdf](Weigel_2003_Solar_wind_coupling_to_and_predictability_of_ground_magnetic_fields_and_their_time_derivatives.pdf).
 
 * Horton, W., R.S. Weigel, D. Vassiliadis, and I. Doxas, Substorm Classification with the WINDMI Model, *Nonlinear Processes in Geophysics*, 2003 doi:10.5194/npg-10-363-2003, [pdf](pubs/Horton_2003_Substorm_classification_with_the_WINDMI_model.pdf).
 
