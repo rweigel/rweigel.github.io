@@ -30,18 +30,17 @@ Magnetospheric physics and geomagnetism, space weather, and solar wind/magnetosp
 * Wilkerson, L.A., R. S. Weigel, D. Thomas, D. Bor, E. J. Oughton, C. T. Gaunt, C. C. Balch, M. J. Wiltberger, A. Pulkkinen, GIC--Related Observations During the May 2024 Geomagnetic Storm in the United States, *Space Weather*, 2026,
 [doi](http://dx.doi.org/10.1029/2025SW004758)
 |
-[pdf](pubs/Wilkerson_2026_GIC-Related_Observations_During_the_May_2024_Geomagnetic_Storm_in_the_United_States.pdf)
-.
+[pdf](pubs/Wilkerson_2026_GIC-Related_Observations_During_the_May_2024_Geomagnetic_Storm_in_the_United_States.pdf).
 
 * Maria Kuznetsova; Martin Reiss; Edmund Henley Henley; Eric Adamson Adamson; Suzy Bingham Bingham; Mario M. Bisi; Francois-Xavier Bocquet; Laura Boucheron; Min-Yang Chou; Claudio Corti; Gian Luca Delzanno; Richard A. Fallows; Biagio Forte; Alexi Glover; Alexa Halford; Carl J. Henney; K.D. Leka; Mark Miesch Miesch; Karin Muglach Muglach; Mathew Owens Owens; Nick Pogorelov; Michelangelo Romano; Pete Riley; Christine Verbeke Verbeke; Jack Wang; Kathryn Whitman; Jia Yue; Yihua Zheng; Charles N. Arge; Sean Bruinsma; Federico Da Dalt; Katherine Garcia-Sage; Joycelyn Jones; Maya Levisohn; M. Leila Mays; Judit Palacios; Liutauras Rusaitis Rusaitis; Evangelia Samara Samara; Ioanna Tsagouri Tsagouri; Jonathan Vigh; Robert Weigel; Chiu Wiegand Wiegand; Clayton Allison Allison; Ricky Egeland Egeland; Dinesha V. Hegde; Michael Kirk; Adam Kubaryk; Dibyendu Nandi; Philip Quinn; Syed Raza Raza; Elana Resnick; Talwinder Singh; Luke Stegeman, Assessment of Space Weather Modeling Capabilities and Transition to Operations, *Advances in Space Research*, 2026,
 [doi](https://doi.org/10.1016/j.asr.2026.03.027)
 |
-[pdf](pubs/Kuznetsova_2026_Assessment_of_Space_Weather_Modeling_Capabilities_and_Transition_to_Operations.pdf)
+[pdf](pubs/Kuznetsova_2026_Assessment_of_Space_Weather_Modeling_Capabilities_and_Transition_to_Operations.pdf).
 
 * Thomas, D., Weigel, R.S., Quaresima, G., Pulkkinen, A., and D.T. Welling, ∇·B and outer boundary errors and Biot-Savart in magnetosphere MHD simulations, *Journal of Geophysical Research--Space Physics*, 2025,
 [doi](https://doi.org/10.1029/2025JA034424)
 |
-[pdf](pubs/Thomas_2025_Div_B_Outer_Boundary_and_Biot_Savart_in_Magnetosphere_MHD_Simulations.pdf).
+[pdf](pubs/Thomas_2025_Div_B_Outer_Boundary_and_Biot_Savart_in_Magnetosphere_MHD_Simulations.pdf.
 
 * Stephens, G.K., Weigel, R.S., Sitnov, M.I., and Tsyganenko, N.A., Reconstructing Magnetotail Reconnection Events Using Data Mining is Feasible and Repeatable, *Journal of Geophysical Research--Machine Learning and Computation*, 2025,
 |
