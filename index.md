@@ -27,7 +27,16 @@ Magnetospheric physics and geomagnetism, space weather, and solar wind/magnetosp
 
 # Publications
 
-* Wilkerson, L.A., R. S. Weigel, D. Thomas, D. Bor, E. J. Oughton, C. T. Gaunt, C. C. Balch, M. J. Wiltberger, A. Pulkkinen, GIC--Related Observations During the May 2024 Geomagnetic Storm in the United States, _Submitted to Space Weather_, 2025, [pdf](https://arxiv.org/abs/2507.07009).
+* Wilkerson, L.A., R. S. Weigel, D. Thomas, D. Bor, E. J. Oughton, C. T. Gaunt, C. C. Balch, M. J. Wiltberger, A. Pulkkinen, GIC--Related Observations During the May 2024 Geomagnetic Storm in the United States, *Space Weather*, 2026,
+[doi](http://dx.doi.org/10.1029/2025SW004758)
+|
+[pdf](pubs/Wilkerson_2026_GIC‐Related_Observations_During_the_May_2024_Geomagnetic_Storm_in_the_United_States.pdf)
+.
+
+* Maria Kuznetsova; Martin Reiss; Edmund Henley Henley; Eric Adamson Adamson; Suzy Bingham Bingham; Mario M. Bisi; Francois-Xavier Bocquet; Laura Boucheron; Min-Yang Chou; Claudio Corti; Gian Luca Delzanno; Richard A. Fallows; Biagio Forte; Alexi Glover; Alexa Halford; Carl J. Henney; K.D. Leka; Mark Miesch Miesch; Karin Muglach Muglach; Mathew Owens Owens; Nick Pogorelov; Michelangelo Romano; Pete Riley; Christine Verbeke Verbeke; Jack Wang; Kathryn Whitman; Jia Yue; Yihua Zheng; Charles N. Arge; Sean Bruinsma; Federico Da Dalt; Katherine Garcia-Sage; Joycelyn Jones; Maya Levisohn; M. Leila Mays; Judit Palacios; Liutauras Rusaitis Rusaitis; Evangelia Samara Samara; Ioanna Tsagouri Tsagouri; Jonathan Vigh; Robert Weigel; Chiu Wiegand Wiegand; Clayton Allison Allison; Ricky Egeland Egeland; Dinesha V. Hegde; Michael Kirk; Adam Kubaryk; Dibyendu Nandi; Philip Quinn; Syed Raza Raza; Elana Resnick; Talwinder Singh; Luke Stegeman, Assessment of Space Weather Modeling Capabilities and Transition to Operations, *Advances in Space Research*, 2026,
+[doi](https://doi.org/10.1016/j.asr.2026.03.027)
+|
+[pdf](pubs/Kuznetsova_2026_Assessment_of_Space_Weather_Modeling_Capabilities_and_Transition_to_Operations.pdf)
 
 * Thomas, D., Weigel, R.S., Quaresima, G., Pulkkinen, A., and D.T. Welling, ∇·B and outer boundary errors and Biot-Savart in magnetosphere MHD simulations, *Journal of Geophysical Research--Space Physics*, 2025,
 [doi](https://doi.org/10.1029/2025JA034424)
