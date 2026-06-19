@@ -32,7 +32,7 @@ Magnetospheric physics and geomagnetism, space weather, and solar wind/magnetosp
 |
 [pdf](pubs/Wilkerson_2026_GIC-Related_Observations_During_the_May_2024_Geomagnetic_Storm_in_the_United_States.pdf).
 
-M.A. Reiss, M.M. Kuznetsova, C. Corti, J. Yue, F. Bacchini, C. Bard, S. Bruinsma, R.M. Caplan, S. Elvidge, N. Ganushkina, J. Huba, V. Jordanova, J. Linker, H. Liu, S. Markidis, P. Mayank, V. Merkin, Y. Omelchenko, M. Palmroth, S. Poedts, A. Ridley, Y. Shou, V. Tenishev, D.R. Themens, G. Toth, W. Wang, M. Young, J. Karpen, C. Arge, D. De Zeeuw, M.-Y. Chou, G.L. Delzanno, C. Didigu, M. El Alaoui†, S. Fung, J. Green, Z. Huang, L. Jian, P. MacNeice, M.L. Mays, P. Mehta, M. Lesko, E. Palmerio, M. Petrenko, E. Provornikova, L. Rastaetter, L. Rusaitis, N. Sachdeva, E. Samara, A. Taktakishvili, J. Topper, T. Tsui, C. Verbeke, J. Wang, C. Wiegand, M. Wiltberger, Y. Zheng, M. Bisi, M. Georgoulis, T. Kodikara, T. Pulkkinen, D. Sur, A. Chartier, D. da Silva, A. Faturahman, K. Garcia-Sage, D. Kondrashov, V. Ledvina, W. Liu, J. Luhmann, C. Pandey, E. Resnick, V. Roytershteyn, C. Shi, K. Whitman, I. Zakharenkova, R.S. Weigel, and K. Zhang, Advancing Open Science in Heliophysics Modeling, *Space Weather*, 2026,
+* M.A. Reiss, M.M. Kuznetsova, C. Corti, J. Yue, F. Bacchini, C. Bard, S. Bruinsma, R.M. Caplan, S. Elvidge, N. Ganushkina, J. Huba, V. Jordanova, J. Linker, H. Liu, S. Markidis, P. Mayank, V. Merkin, Y. Omelchenko, M. Palmroth, S. Poedts, A. Ridley, Y. Shou, V. Tenishev, D.R. Themens, G. Toth, W. Wang, M. Young, J. Karpen, C. Arge, D. De Zeeuw, M.-Y. Chou, G.L. Delzanno, C. Didigu, M. El Alaoui†, S. Fung, J. Green, Z. Huang, L. Jian, P. MacNeice, M.L. Mays, P. Mehta, M. Lesko, E. Palmerio, M. Petrenko, E. Provornikova, L. Rastaetter, L. Rusaitis, N. Sachdeva, E. Samara, A. Taktakishvili, J. Topper, T. Tsui, C. Verbeke, J. Wang, C. Wiegand, M. Wiltberger, Y. Zheng, M. Bisi, M. Georgoulis, T. Kodikara, T. Pulkkinen, D. Sur, A. Chartier, D. da Silva, A. Faturahman, K. Garcia-Sage, D. Kondrashov, V. Ledvina, W. Liu, J. Luhmann, C. Pandey, E. Resnick, V. Roytershteyn, C. Shi, K. Whitman, I. Zakharenkova, R.S. Weigel, and K. Zhang, Advancing Open Science in Heliophysics Modeling, *Space Weather*, 2026,
 [doi](http://dx.doi.org/10.1029/2025SW004922)
 |
 [pdf](Reiss_2026_Recommendations_for_Advancing_Heliophysics_and_Space_Weather_Modeling_Through_Open_Science.pdf)
@@ -50,7 +50,7 @@ M.A. Reiss, M.M. Kuznetsova, C. Corti, J. Yue, F. Bacchini, C. Bard, S. Bruinsma
 * Thomas, D., Weigel, R.S., Quaresima, G., Pulkkinen, A., and D.T. Welling, ∇·B and outer boundary errors and Biot-Savart in magnetosphere MHD simulations, *Journal of Geophysical Research--Space Physics*, 2025,
 [doi](https://doi.org/10.1029/2025JA034424)
 |
-[pdf](pubs/Thomas_2025_Div_B_Outer_Boundary_and_Biot_Savart_in_Magnetosphere_MHD_Simulations.pdf.
+[pdf](pubs/Thomas_2025_Div_B_Outer_Boundary_and_Biot_Savart_in_Magnetosphere_MHD_Simulations.pdf).
 
 * Stephens, G.K., Weigel, R.S., Sitnov, M.I., and Tsyganenko, N.A., Reconstructing Magnetotail Reconnection Events Using Data Mining is Feasible and Repeatable, *Journal of Geophysical Research--Machine Learning and Computation*, 2025,
 |
