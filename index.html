@@ -11,7 +11,7 @@
     }
 
     body {
-      background-image: url("https://rweigel.github.io/biedit/img/paper.png")
+      background-image: url("https://rweigel.github.io/biedit/biedit/ui/img/paper.png")
     }
 
     .body {
@@ -19,7 +19,7 @@
       min-width: 50%;
       max-height: 100%;
       position: absolute;
-      background-image: url("https://rweigel.github.io/biedit/img/paper.png");
+      background-image: url("https://rweigel.github.io/biedit/biedit/ui/img/paper.png");
     }
 
     #toc {
@@ -381,10 +381,6 @@
       font-size: inherit !important;
     }
 
-    .katex-warning {
-      border-right: 0.5em solid red;
-    }
-
     .katex-display {
       text-align: center;
       margin: 0em;
@@ -394,6 +390,16 @@
     .katex-display.fleqn>.katex {
       padding-left: 0em;
       margin: 0em;
+    }
+
+    .katex-warning {
+      border-right: 0.5em solid red;
+    }
+
+    .katex-error-expression {}
+
+    .katex-error-message {
+      color: red;
     }
 
     .page-break {
@@ -421,8 +427,14 @@
         margin: 0.5in 0.75in 0.75in;
       }
 
-      .katex .hide-tail {
-        overflow: hidden !important;
+      body,
+      html {
+        margin: 0px;
+        padding: 0px;
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        overflow: auto;
+        display: inline;
       }
 
       .page-break {
@@ -499,8 +511,12 @@
         border-width: medium;
         border-style: none;
         border-color: currentcolor;
-        border-image: initial;
+        border-image: none;
         overflow-wrap: break-word;
+      }
+
+      .katex .hide-tail {
+        overflow: hidden !important;
       }
 
       .katex {
@@ -670,7 +686,21 @@
         <ul class="loose">
           <li>
             <div class="block">
-              <p>Wilkerson, L.A., R. S. Weigel, D. Thomas, D. Bor, E. J. Oughton, C. T. Gaunt, C. C. Balch, M. J. Wiltberger, A. Pulkkinen, GIC–Related Observations During the May 2024 Geomagnetic Storm in the United States, <em marker="*">Space Weather</em>, 2026, <a href="http://dx.doi.org/10.1029/2025SW004758">doi</a> | <a href="pubs/Wilkerson_2026_GIC-Related_Observations_During_the_May_2024_Geomagnetic_Storm_in_the_United_States.pdf">pdf</a>.</p>
+              <p>E.J. Oughton, E.A. Peters. D. Bor, N., C.T. Gaunt, R.S. Weigel, M.J. Wiltberger, Systematic Component-Level Characterization of Electricity Transmission Infrastructure for Space Weather Risk Assessment, 2026, <a href="https://doi.org/10.1029/2026SW005166">doi</a></p>
+            </div>
+          </li>
+          <li>
+            <div class="block">
+              <p>E.J. Oughton, D.K. Bor, R.S. Weigel, C.T. Gaunt, R. Dogan, L. Huang, J.J. Love, M. Wiltberger, Major Space Weather Risks Identified via Coupled Physics-Engineering-Economic Modeling, <em marker="_">AGU Advances</em>, 2026, <a href="https://doi.org/10.1029/2026AV002367">doi</a> | <a href="pubs/Oughton_2026_Major_Space_Weather_Risks_Identified_via_Coupled_Physics%E2%80%90Engineering%E2%80%90Economic_Modeling.pdf">pdf</a></p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="block">
+        <ul class="loose">
+          <li>
+            <div class="block">
+              <p>Wilkerson, L.A., R. S. Weigel, D. Thomas, D. Bor, E. J. Oughton, C. T. Gaunt, C. C. Balch, M. J. Wiltberger, A. Pulkkinen, GIC–Related Observations During the May 2024 Geomagnetic Storm in the United States, <em marker="*">Space Weather</em>, 2026, <a href="http://dx.doi.org/10.1029/2025SW004758">doi</a> | <a href="pubs/Wilkerson_2026_GIC-Related_Observations_During_the_May_2024_Geomagnetic_Storm_in_the_United_States.pdf">pdf</a></p>
             </div>
           </li>
           <li>
@@ -680,7 +710,7 @@
           </li>
           <li>
             <div class="block">
-              <p class="active">C. Corti , M. M. Kuznetsova M. A. Reiss , J. Yue , J. Karpen C. N. ArgeF. Bacchini , C. Bard , S. Bruinsma , R. M. Caplan , L. K. S. Daldorff , P. J. Deka, C. R. DeVore , S. Elvidge , N. Ganushkina , J. D. Huba B. V. Jackson ,V. Jordanova , J. A. Linker H. Liu , J. G. Luhmann , S. Markidis P. Mayank ,V. Merkin , N. Moens D. Odstrcil , Y. A. Omelchenko , M. Palmroth ,S. Poedts , A. J. Ridley , Y. Shou V. Tenishev , D. R. Themens , G. TothW. Wang , R.‐P. Wilhelm , M. A. Young B. Cecconi , M.‐Y. Chou , D. De ZeeuwG. L. Delzanno , C. Didigu M. El Alaoui S. Fung , J. Green , Z. Huang ,L. K. Jian , L. J. Landwer M. Lesko , P. MacNeice , A. Masson , M. L. Mays ,P. M. Mehta M. S. Miesch , E. Palmerio , M. Petrenko , E. ProvornikovaL. Rastätter , L. Rusaitis , N. Sachdeva , E. Samara D. Sur , A. TaktakishviliJ. Topper T. Tsui C. Verbeke , J. Wang , C. Wiegand , M. Wiltberger ,Y. Zheng , M. M. Bisi , M. K. Georgoulis , T. Kodikara , T. Pulkkinen ,A. Chartier , D. da Silva , A. Faturahman , K. Garcia‐Sage , D. Kondrashov ,V. E. Ledvina , W. Liu , C. Pandey , E. Resnick C. Shi , R. S. Weigel ,K. Whitman , I. Zakharenkova , and K. Zhang, Advancing Heliophysics and Space Weather Modeling Through Open Science, <em marker="*">Space Weather</em>, 2026, <a href="https://doi.org/10.1029/2025SW004922">doi</a> | <a href="pubs/Corti_2026_Advancing_Heliophysics_and_Space_Weather_Modeling_Through_Open_Science.pdf">pdf</a></p>
+              <p>C. Corti , M. M. Kuznetsova M. A. Reiss , J. Yue , J. Karpen C. N. ArgeF. Bacchini , C. Bard , S. Bruinsma , R. M. Caplan , L. K. S. Daldorff , P. J. Deka, C. R. DeVore , S. Elvidge , N. Ganushkina , J. D. Huba B. V. Jackson ,V. Jordanova , J. A. Linker H. Liu , J. G. Luhmann , S. Markidis P. Mayank ,V. Merkin , N. Moens D. Odstrcil , Y. A. Omelchenko , M. Palmroth ,S. Poedts , A. J. Ridley , Y. Shou V. Tenishev , D. R. Themens , G. TothW. Wang , R.‐P. Wilhelm , M. A. Young B. Cecconi , M.‐Y. Chou , D. De ZeeuwG. L. Delzanno , C. Didigu M. El Alaoui S. Fung , J. Green , Z. Huang ,L. K. Jian , L. J. Landwer M. Lesko , P. MacNeice , A. Masson , M. L. Mays ,P. M. Mehta M. S. Miesch , E. Palmerio , M. Petrenko , E. ProvornikovaL. Rastätter , L. Rusaitis , N. Sachdeva , E. Samara D. Sur , A. TaktakishviliJ. Topper T. Tsui C. Verbeke , J. Wang , C. Wiegand , M. Wiltberger ,Y. Zheng , M. M. Bisi , M. K. Georgoulis , T. Kodikara , T. Pulkkinen ,A. Chartier , D. da Silva , A. Faturahman , K. Garcia‐Sage , D. Kondrashov ,V. E. Ledvina , W. Liu , C. Pandey , E. Resnick C. Shi , R. S. Weigel ,K. Whitman , I. Zakharenkova , and K. Zhang, Advancing Heliophysics and Space Weather Modeling Through Open Science, <em marker="*">Space Weather</em>, 2026, <a href="https://doi.org/10.1029/2025SW004922">doi</a> | <a href="pubs/Corti_2026_Advancing_Heliophysics_and_Space_Weather_Modeling_Through_Open_Science.pdf">pdf</a></p>
             </div>
           </li>
           <li>
@@ -698,10 +728,6 @@
               <p>Stephens, G.K., Weigel, R.S., Sitnov, M.I., and Tsyganenko, N.A., Reconstructing Magnetotail Reconnection Events Using Data Mining is Feasible and Repeatable, <em marker="*">Journal of Geophysical Research–Machine Learning and Computation</em>, 2025, <a href="http://dx.doi.org/10.1029/2025JH000965">doi</a> | <a href="Stephens_2025_Reconstructing_Magnetotail_Reconnection_Events_Using_Data_Mining_is_Feasible_and_Repeatable.pdf">pdf</a>.</p>
             </div>
           </li>
-        </ul>
-      </div>
-      <div class="block">
-        <ul class="loose">
           <li>
             <div class="block">
               <p>Pulkkinen, A., P. Schuck, E. Bernabeu, R.S. Weigel, and R. Arritt, A novel approach for geoelectric field response scaling factors used in geomagnetic storm hazard assessments, <em marker="*">Space Weather</em>, 2025, <a href="https://doi.org/10.1029/2025SW004382">doi</a> | <a href="pubs/Pulkkinen_2025_A_Novel_Approach_for_Geoelectric_Field_Response_Scaling_Factors_Used_in_Geomagnetic_Storm_Hazzard_Assessments.pdf">pdf</a>.</p>

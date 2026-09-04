@@ -27,10 +27,17 @@ Magnetospheric physics and geomagnetism, space weather, and solar wind/magnetosp
 
 # Publications
 
+* E.J. Oughton, E.A. Peters. D. Bor, N., C.T. Gaunt, R.S. Weigel, M.J. Wiltberger, Systematic Component-Level Characterization of Electricity Transmission Infrastructure for Space Weather Risk Assessment, 2026, [doi](https://doi.org/10.1029/2026SW005166)
+
+* E.J. Oughton, D.K. Bor, R.S. Weigel, C.T. Gaunt, R. Dogan, L. Huang, J.J. Love, M. Wiltberger, Major Space Weather Risks Identified via Coupled Physics-Engineering-Economic Modeling, _AGU Advances_, 2026,
+[doi](https://doi.org/10.1029/2026AV002367)
+|
+[pdf](pubs/Oughton_2026_Major_Space_Weather_Risks_Identified_via_Coupled_Physics‐Engineering‐Economic_Modeling.pdf)
+
 * Wilkerson, L.A., R. S. Weigel, D. Thomas, D. Bor, E. J. Oughton, C. T. Gaunt, C. C. Balch, M. J. Wiltberger, A. Pulkkinen, GIC--Related Observations During the May 2024 Geomagnetic Storm in the United States, *Space Weather*, 2026,
 [doi](http://dx.doi.org/10.1029/2025SW004758)
 |
-[pdf](pubs/Wilkerson_2026_GIC-Related_Observations_During_the_May_2024_Geomagnetic_Storm_in_the_United_States.pdf).
+[pdf](pubs/Wilkerson_2026_GIC-Related_Observations_During_the_May_2024_Geomagnetic_Storm_in_the_United_States.pdf)
 
 * M.A. Reiss, M.M. Kuznetsova, C. Corti, J. Yue, F. Bacchini, C. Bard, S. Bruinsma, R.M. Caplan, S. Elvidge, N. Ganushkina, J. Huba, V. Jordanova, J. Linker, H. Liu, S. Markidis, P. Mayank, V. Merkin, Y. Omelchenko, M. Palmroth, S. Poedts, A. Ridley, Y. Shou, V. Tenishev, D.R. Themens, G. Toth, W. Wang, M. Young, J. Karpen, C. Arge, D. De Zeeuw, M.-Y. Chou, G.L. Delzanno, C. Didigu, M. El Alaoui, S. Fung, J. Green, Z. Huang, L. Jian, P. MacNeice, M.L. Mays, P. Mehta, M. Lesko, E. Palmerio, M. Petrenko, E. Provornikova, L. Rastaetter, L. Rusaitis, N. Sachdeva, E. Samara, A. Taktakishvili, J. Topper, T. Tsui, C. Verbeke, J. Wang, C. Wiegand, M. Wiltberger, Y. Zheng, M. Bisi, M. Georgoulis, T. Kodikara, T. Pulkkinen, D. Sur, A. Chartier, D. da Silva, A. Faturahman, K. Garcia-Sage, D. Kondrashov, V. Ledvina, W. Liu, J. Luhmann, C. Pandey, E. Resnick, V. Roytershteyn, C. Shi, K. Whitman, I. Zakharenkova, R.S. Weigel, and K. Zhang, Advancing Open Science in Heliophysics Modeling, *Space Weather*, 2026,
 [doi](http://dx.doi.org/10.1029/2025SW004922)
