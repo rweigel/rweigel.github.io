@@ -33,6 +33,9 @@ Magnetospheric physics and geomagnetism, space weather, and solar wind/magnetosp
 [doi](https://doi.org/10.1029/2026AV002367)
 |
 [pdf](pubs/Oughton_2026_Major_Space_Weather_Risks_Identified_via_Coupled_Physics‐Engineering‐Economic_Modeling.pdf)
+| Media Coverage: 
+[Eos](https://eos.org/research-spotlights/the-economic-costs-of-solar-storms); 
+CNN: [Article](https://edition.cnn.com/interactive/2026/07/weather/solar-storms-power-grid/), [Instagram](https://www.instagram.com/p/Dc37ZskE1lv/), [Interview](https://www.cnn.com/2026/09/04/weather/video/if-a-big-solar-storm-hits-earth-what-happens-we-asked-a-scientist-vrtc)
 
 * Wilkerson, L.A., R. S. Weigel, D. Thomas, D. Bor, E. J. Oughton, C. T. Gaunt, C. C. Balch, M. J. Wiltberger, A. Pulkkinen, GIC--Related Observations During the May 2024 Geomagnetic Storm in the United States, *Space Weather*, 2026,
 [doi](http://dx.doi.org/10.1029/2025SW004758)
