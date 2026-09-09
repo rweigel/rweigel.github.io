@@ -28,6 +28,8 @@ Magnetospheric physics and geomagnetism, space weather, and solar wind/magnetosp
 # Publications
 
 * E.J. Oughton, E.A. Peters. D. Bor, N., C.T. Gaunt, R.S. Weigel, M.J. Wiltberger, Systematic Component-Level Characterization of Electricity Transmission Infrastructure for Space Weather Risk Assessment, 2026, [doi](https://doi.org/10.1029/2026SW005166)
+|
+[pdf](pubs/Bor_2026_Systematic_Component‐Level_Characterization_of_Electricity_Transmission_Infrastructure_for_Space_Weather_Risk_Assessment.pdf)
 
 * E.J. Oughton, D.K. Bor, R.S. Weigel, C.T. Gaunt, R. Dogan, L. Huang, J.J. Love, M. Wiltberger, Major Space Weather Risks Identified via Coupled Physics-Engineering-Economic Modeling, _AGU Advances_, 2026,
 [doi](https://doi.org/10.1029/2026AV002367)
