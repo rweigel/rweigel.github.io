@@ -27,22 +27,27 @@ Magnetospheric physics and geomagnetism, space weather, and solar wind/magnetosp
 
 # Publications
 
-* D. Bor, E.J. Oughton, E.A. Peters, C.T. Gaunt, N. Rivera, C.T. Gaunt, R.S. Weigel, and M.J. Wiltberger, Systematic Component-Level Characterization of Electricity Transmission Infrastructure for Space Weather Risk Assessment, 2026, [doi](https://doi.org/10.1029/2026SW005166)
+* LaNeve, C. M., E. J. Oughton, N. River, R. S. Weigel, D. Thomas, and C. T. Gaunt, Space Weather Mitigation Decisions by Critical Infrastructure Operators During Solar Cycle 25, _Space Weather_, 2026,
+[doi](http://dx.doi.org/10.1029/2026SW005072)
 |
-[pdf](pubs/Bor_2026_Systematic_Component‐Level_Characterization_of_Electricity_Transmission_Infrastructure_for_Space_Weather_Risk_Assessment.pdf)
+[pdf](pubs/LaNeve_2026_Space_Weather_Mitigation_Decisions_by_Critical_Infrastructure_Operators_During_Solar_Cycle_25.pdf).
+
+* D. Bor, E.J. Oughton, E.A. Peters, C.T. Gaunt, N. Rivera, C.T. Gaunt, R.S. Weigel, and M.J. Wiltberger, Systematic Component-Level Characterization of Electricity Transmission Infrastructure for Space Weather Risk Assessment, _Space Weather_, 2026, [doi](https://doi.org/10.1029/2026SW005166).
+|
+[pdf](pubs/Bor_2026_Systematic_Component‐Level_Characterization_of_Electricity_Transmission_Infrastructure_for_Space_Weather_Risk_Assessment.pdf).
 
 * E.J. Oughton, D.K. Bor, R.S. Weigel, C.T. Gaunt, R. Dogan, L. Huang, J.J. Love, M. Wiltberger, Major Space Weather Risks Identified via Coupled Physics-Engineering-Economic Modeling, _AGU Advances_, 2026,
-[doi](https://doi.org/10.1029/2026AV002367)
+[doi](https://doi.org/10.1029/2026AV002367).
 |
 [pdf](pubs/Oughton_2026_Major_Space_Weather_Risks_Identified_via_Coupled_Physics‐Engineering‐Economic_Modeling.pdf)
 | Media Coverage: 
 [Eos](https://eos.org/research-spotlights/the-economic-costs-of-solar-storms); 
-CNN: [Article](https://edition.cnn.com/interactive/2026/07/weather/solar-storms-power-grid/), [Instagram](https://www.instagram.com/p/Dc37ZskE1lv/), [Interview](https://www.cnn.com/2026/09/04/weather/video/if-a-big-solar-storm-hits-earth-what-happens-we-asked-a-scientist-vrtc)
+CNN: [Article](https://edition.cnn.com/interactive/2026/07/weather/solar-storms-power-grid/), [Instagram](https://www.instagram.com/p/Dc37ZskE1lv/), [Interview](https://www.cnn.com/2026/09/04/weather/video/if-a-big-solar-storm-hits-earth-what-happens-we-asked-a-scientist-vrtc).
 
-* Wilkerson, L.A., R. S. Weigel, D. Thomas, D. Bor, E. J. Oughton, C. T. Gaunt, C. C. Balch, M. J. Wiltberger, A. Pulkkinen, GIC--Related Observations During the May 2024 Geomagnetic Storm in the United States, *Space Weather*, 2026,
+* Wilkerson, L.A., R. S. Weigel, D. Thomas, D. Bor, E. J. Oughton, C. T. Gaunt, C. C. Balch, M. J. Wiltberger, A. Pulkkinen, GIC--Related Observations During the May 2024 Geomagnetic Storm in the United States, _Space Weather+, 2026,
 [doi](http://dx.doi.org/10.1029/2025SW004758)
 |
-[pdf](pubs/Wilkerson_2026_GIC-Related_Observations_During_the_May_2024_Geomagnetic_Storm_in_the_United_States.pdf)
+[pdf](pubs/Wilkerson_2026_GIC-Related_Observations_During_the_May_2024_Geomagnetic_Storm_in_the_United_States.pdf).
 
 * M.A. Reiss, M.M. Kuznetsova, C. Corti, J. Yue, F. Bacchini, C. Bard, S. Bruinsma, R.M. Caplan, S. Elvidge, N. Ganushkina, J. Huba, V. Jordanova, J. Linker, H. Liu, S. Markidis, P. Mayank, V. Merkin, Y. Omelchenko, M. Palmroth, S. Poedts, A. Ridley, Y. Shou, V. Tenishev, D.R. Themens, G. Toth, W. Wang, M. Young, J. Karpen, C. Arge, D. De Zeeuw, M.-Y. Chou, G.L. Delzanno, C. Didigu, M. El Alaoui, S. Fung, J. Green, Z. Huang, L. Jian, P. MacNeice, M.L. Mays, P. Mehta, M. Lesko, E. Palmerio, M. Petrenko, E. Provornikova, L. Rastaetter, L. Rusaitis, N. Sachdeva, E. Samara, A. Taktakishvili, J. Topper, T. Tsui, C. Verbeke, J. Wang, C. Wiegand, M. Wiltberger, Y. Zheng, M. Bisi, M. Georgoulis, T. Kodikara, T. Pulkkinen, D. Sur, A. Chartier, D. da Silva, A. Faturahman, K. Garcia-Sage, D. Kondrashov, V. Ledvina, W. Liu, J. Luhmann, C. Pandey, E. Resnick, V. Roytershteyn, C. Shi, K. Whitman, I. Zakharenkova, R.S. Weigel, and K. Zhang, Advancing Open Science in Heliophysics Modeling, *Space Weather*, 2026,
 [doi](http://dx.doi.org/10.1029/2025SW004922)
@@ -52,7 +57,7 @@ CNN: [Article](https://edition.cnn.com/interactive/2026/07/weather/solar-storms-
 * C. Corti , M. M. Kuznetsova M. A. Reiss , J. Yue , J. Karpen C. N. ArgeF. Bacchini , C. Bard , S. Bruinsma , R. M. Caplan , L. K. S. Daldorff , P. J. Deka, C. R. DeVore , S. Elvidge , N. Ganushkina , J. D. Huba B. V. Jackson ,V. Jordanova , J. A. Linker H. Liu , J. G. Luhmann , S. Markidis P. Mayank ,V. Merkin , N. Moens D. Odstrcil , Y. A. Omelchenko , M. Palmroth ,S. Poedts , A. J. Ridley , Y. Shou V. Tenishev , D. R. Themens , G. TothW. Wang , R.‐P. Wilhelm , M. A. Young B. Cecconi , M.‐Y. Chou , D. De ZeeuwG. L. Delzanno , C. Didigu M. El Alaoui S. Fung , J. Green , Z. Huang ,L. K. Jian , L. J. Landwer M. Lesko , P. MacNeice , A. Masson , M. L. Mays ,P. M. Mehta M. S. Miesch , E. Palmerio , M. Petrenko , E. ProvornikovaL. Rastätter , L. Rusaitis , N. Sachdeva , E. Samara D. Sur , A. TaktakishviliJ. Topper T. Tsui C. Verbeke , J. Wang , C. Wiegand , M. Wiltberger ,Y. Zheng , M. M. Bisi , M. K. Georgoulis , T. Kodikara , T. Pulkkinen ,A. Chartier , D. da Silva , A. Faturahman , K. Garcia‐Sage , D. Kondrashov ,V. E. Ledvina , W. Liu , C. Pandey , E. Resnick C. Shi , R. S. Weigel ,K. Whitman , I. Zakharenkova , and K. Zhang, Advancing Heliophysics and Space Weather Modeling Through Open Science, *Space Weather*, 2026,
 [doi](https://doi.org/10.1029/2025SW004922)
 |
-[pdf](pubs/Corti_2026_Advancing_Heliophysics_and_Space_Weather_Modeling_Through_Open_Science.pdf)
+[pdf](pubs/Corti_2026_Advancing_Heliophysics_and_Space_Weather_Modeling_Through_Open_Science.pdf).
 
 * Maria Kuznetsova; Martin Reiss; Edmund Henley Henley; Eric Adamson Adamson; Suzy Bingham Bingham; Mario M. Bisi; Francois-Xavier Bocquet; Laura Boucheron; Min-Yang Chou; Claudio Corti; Gian Luca Delzanno; Richard A. Fallows; Biagio Forte; Alexi Glover; Alexa Halford; Carl J. Henney; K.D. Leka; Mark Miesch Miesch; Karin Muglach Muglach; Mathew Owens Owens; Nick Pogorelov; Michelangelo Romano; Pete Riley; Christine Verbeke Verbeke; Jack Wang; Kathryn Whitman; Jia Yue; Yihua Zheng; Charles N. Arge; Sean Bruinsma; Federico Da Dalt; Katherine Garcia-Sage; Joycelyn Jones; Maya Levisohn; M. Leila Mays; Judit Palacios; Liutauras Rusaitis Rusaitis; Evangelia Samara Samara; Ioanna Tsagouri Tsagouri; Jonathan Vigh; Robert Weigel; Chiu Wiegand Wiegand; Clayton Allison Allison; Ricky Egeland Egeland; Dinesha V. Hegde; Michael Kirk; Adam Kubaryk; Dibyendu Nandi; Philip Quinn; Syed Raza Raza; Elana Resnick; Talwinder Singh; Luke Stegeman, Assessment of Space Weather Modeling Capabilities and Transition to Operations, *Advances in Space Research*, 2026,
 [doi](https://doi.org/10.1016/j.asr.2026.03.027)
@@ -171,7 +176,7 @@ _Space Weather_, 2017,
 [pdf](pubs/Nwankwo_2015_Effects_of_plasma_drag_on_low_Earth_orbiting_satellites_due_to_solar_forcing_induced_perturbations_and_heating.pdf).
 
 * A. Kercher and R.S. Weigel, Removal of pseudo-convergence in coplanar and near-coplanar Riemann problems of ideal magnetohydrodynamics solved using finite volume schemes, *Journal of Computational Physics*, 2015,
-[doi]((https://doi.org/10.1016/j.jcp.2014.11.027)
+[doi](https://doi.org/10.1016/j.jcp.2014.11.027)
 |
 [pdf](pubs/Kercher_2015_Removal_of_pseudo-convergence_in_coplanar_and_near-coplanar_Riemann_problems_of_ideal_MHD_solved_using_finite_volume_schemes.pdf).
 
@@ -185,12 +190,12 @@ _Space Weather_, 2017,
 |
 [pdf](pubs/Pulkkinen_2013_Community‐wide_validation_of_geospace_model_ground_magnetic_field_perturbation.pdf).
 
-* Rastätter, L.,  M.M. Kuznetsova, A. Glocer, D. Welling, X. Meng, J. Raeder, M. Wiltberger, V.K. Jordanova, Y. Yu, S. Zaharia, R.S. Weigel, S. Sazykin, R. Boynton, H. Wei, V. Eccles, W. Horton, M.L. Mays, and J. Gannon, Geospace environment modeling 2008–2009 challenge: Dst index, *Space Weather*, 2013,
+* Rastätter, L.,  M.M. Kuznetsova, A. Glocer, D. Welling, X. Meng, J. Raeder, M. Wiltberger, V.K. Jordanova, Y. Yu, S. Zaharia, R.S. Weigel, S. Sazykin, R. Boynton, H. Wei, V. Eccles, W. Horton, M.L. Mays, and J. Gannon, Geospace environment modeling 2008–2009 challenge: Dst index, *Space Weather*, 2013, 
 [doi](https://doi.org/10.1002/swe.20036)
 |
 [pdf](pubs/Rastatter_2013_Geospace_environment_modeling_2008_2009_challenge_Dst_index).
 
-* Rowland, W. and R.S. Weigel, Intra-calibration of Particle Detectors on a Three-Axis Stabilized Geostationary Platform, *Space Weather*, 2012,
+* Rowland, W. and R.S. Weigel, Intra-calibration of Particle Detectors on a Three-Axis Stabilized Geostationary Platform, *Space Weather*, 2012, 
 [doi](https://doi.org/10.1029/2012SW000816)
 |
 [pdf](pubs/Rowland_2012_Intracalibration_of_particle_detectors_on_a_three‐axis_stabilized_geostationary_platform.pdf).
@@ -204,48 +209,48 @@ _Space Weather_, 2017,
 [doi](https://doi.org/10.1029/2011EO080010)
 |
 [pdf](pubs/Weigel_2011_Misapplication_of_a_Statistical_Test_Comment_on_Lies_Damned_Lies_and_Statistics_in_Geology.pdf).
- 
+
 * Weigel, R.S., Solar wind density influence on geomagnetic storm intensity, *Journal of Geophysical Research*, 2010,
 [doi](https://doi.org/10.1029/2009ja015062)
 |
-[pdf](pubs/Weigel_2010_Solar_wind_density_influence_on_geomagnetic_storm_intensity.pdf). 
+[pdf](pubs/Weigel_2010_Solar_wind_density_influence_on_geomagnetic_storm_intensity.pdf)
 
 * Weigel, R.S., D.M. Lindholm, A. Wilson, and J. Faden, TSDS: high-performance merge, subset, and filter software for time series-like data, *Earth Science Informatics*, 2010
 [doi](https://doi.org/10.1007/s12145-010-0056-1)
 |
 [pdf](pubs/Weigel_2010_TSDS__high-performance_merge_subset__and_filter_software_for_time_series-like_data.pdf).
 
-* Weigel, R.S., M. Zhizhin, D. Mishin, D. Kokovin, E.  Kihn, and J. Faden, VxOware: Software for Managing Virtual Observatory Metadata, *Earth Science Informatics*, 2010,
+* Weigel, R.S., M. Zhizhin, D. Mishin, D. Kokovin, E.  Kihn, and J. Faden, VxOware: Software for Managing Virtual Observatory Metadata, _Earth Science Informatics_, 2010,
 [doi](https://doi.org/10.1007/s12145-010-0048-1)
 |
 [pdf](pubs/Weigel_2010_VxOware_software_for_managing_virtual_observatory_metadata.pdf).
 
-* Faden, J.B., R.S. Weigel, J. Merka and R.H.W. Friedel, Autoplot: a browser for scientific data on the web, *Earth Science Informatics*, 2010,
+* Faden, J.B., R.S. Weigel, J. Merka and R.H.W. Friedel, Autoplot: a browser for scientific data on the web, _Earth Science Informatics_, 2010,
 [doi](https://doi.org/10.1007/s12145-010-0049-0)
 |
 [pdf](pubs/Faden_2010_Autoplot_a_browser_for_scientific_data_on_the_web.pdf).
 
-* Borne, K., Wallin, J., and Weigel, R., The New Computational and Data Sciences Undergraduate Program at George Mason University, *The International Conference on Computational Science*, 2009,
+* Borne, K., Wallin, J., and Weigel, R., The New Computational and Data Sciences Undergraduate Program at George Mason University, _The International Conference on Computational Science_, 2009,
 [doi](https://doi.org/10.1007/978-3-642-01973-9_9)
 |
 [pdf](pubs/Borne_2009_The_New_Computational_and_Data_Sciences_Program_at_GMU.pdf).
 
-* Weigel, R.S., D.N. Baker, D. Aaron Roberts, and T. King, Using Virtual Observatories for Heliophysics Research, *Eos*, 2009,
+* Weigel, R.S., D.N. Baker, D. Aaron Roberts, and T. King, Using Virtual Observatories for Heliophysics Research, _Eos_, 2009,
 [doi](https://doi.org/10.1029/2009EO470001)
 |
 [pdf](pubs/Weigel_2009_Using_Virtual_Observatories_for_Heliophysics_Research.pdf).
 
-* Wiltberger, M., R.S. Weigel, W. Lotko, and J A. Fedder, Modeling seasonal variations of auroral particle precipitation in a global-scale magnetosphere-ionosphere simulation, *Journal of Geophysical Research*, 2009
+* Wiltberger, M., R.S. Weigel, W. Lotko, and J A. Fedder, Modeling seasonal variations of auroral particle precipitation in a global-scale magnetosphere-ionosphere simulation, _Journal of Geophysical Research_, 2009
 [doi](https://doi.org/10.1029/2008JA013108)
 |
 [pdf](pubs/Wiltberger_2009_Modeling_seasonal_variations_of_auroral_particle_precipitation_in_a_global-scale_magnetosphere-ionosphere_simulation.pdf).
 
-* Weigel, R.S., Solar wind time history contribution to the day-of-year variation in geomagnetic activity, *Journal of Geophysical Research*, 2007,
+* Weigel, R.S., Solar wind time history contribution to the day-of-year variation in geomagnetic activity, _Journal of Geophysical Research_, 2007,
 [doi](https://doi.org/10.1029/2007JA012324)
 |
 [pdf](pubs/Weigel_2007_Solar_wind_time_history_contribution_to_the_day-of-year_variation_in_geomagnetic_activity.pdf).
 
-* Baker, D.N., Wiltberger, M.J., Weigel, R.S., and Elkington, S.R. Present status and future challenges of modeling the Sun Earth end-to-end system, *Journal of Atmospheric and Solar-Terrestrial Physics*, 2007,
+* Baker, D.N., Wiltberger, M.J., Weigel, R.S., and Elkington, S.R. Present status and future challenges of modeling the Sun Earth end-to-end system, _Journal of Atmospheric and Solar-Terrestrial Physics_, 2007,
 [doi](https://doi.org/10.1016/j.jastp.2006.07.017)
 |
 [pdf](pubs/Baker_2007_Present_status_and_future_challenges_of_modeling_the_Sun–Earth_end-to-end_system.pdf).
@@ -260,7 +265,7 @@ _Space Weather_, 2017,
 |
 [pdf](pubs/Weigel_2006_Decision_theory_and_the_analysis_of_rare_event_space_weather_forecasts.pdf).
 
-* Wiltberger, M., Weigel, R.S., Gehmeyr, M., Guild, T., Analysis and Visualization of Space Science Models Outputs and Data with CISM-DX, *Journal of Geophysical Research*, 2005
+* Wiltberger, M., Weigel, R.S., Gehmeyr, M., Guild, T., Analysis and Visualization of Space Science Models Outputs and Data with CISM-DX, *Journal of Geophysical Research*, 2005,
 [doi](https://doi.org/10.1029/2004JA010956)
 |
 [pdf](pubs/Wiltberger_2005_Analysis_and_visualization_of_space_science_model_output_and_data_with_CISM-DX.pdf).
