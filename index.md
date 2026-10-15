@@ -20,14 +20,14 @@ Magnetospheric physics and geomagnetism, space weather, and solar wind/magnetosp
 * Professor, 2021--, Department of Physics and Astronomy, George Mason University
 * Associate Professor, 2015--, Department of Physics and Astronomy, George Mason University
 * Associate Professor, 2011-2015, School of Physics, Astronomy, and Computational Sciences, George Mason University
-* Director, 2009-, Space Weather Laboratory, George Mason University, Fairfax, VA
+* Director, 2009-2025, Space Weather Laboratory, George Mason University, Fairfax, VA
 * Assistant Professor, 2006-2011, Department of Computational and Data Sciences, George Mason University
 * Research Scientist, 2003-2006, Laboratory for Atmospheric and Space Physics University of Colorado at Boulder, Boulder, CO
 * Postdoctoral Researcher, 2001-2003, National Academy of Sciences at NASA Goddard Space Flight Center, Greenbelt, MD
 
 # Publications
 
-Weigel, R.S., A.Y. Shih, R. Ringuette, I. Christopher, S.M. Petrinec, S. Turner, R.M. Candey, and B. Cecconi, Coordinate Frames and Transforms in Space Physics: Terms, Definitions, and Implementations, _Journal of Geophysical Research--Space Physics, 2026,
+* Weigel, R.S., A.Y. Shih, R. Ringuette, I. Christopher, S.M. Petrinec, S. Turner, R.M. Candey, and B. Cecconi, Coordinate Frames and Transforms in Space Physics: Terms, Definitions, and Implementations, _Journal of Geophysical Research--Space Physics_, 2026,
 [doi](https://doi.org/10.1029/2026JA035196)
 |
 [preprint](https://arxiv.org/abs/2601.07605).
@@ -54,7 +54,7 @@ CNN: [Article](https://edition.cnn.com/interactive/2026/07/weather/solar-storms-
 |
 [pdf](pubs/Wilkerson_2026_GIC-Related_Observations_During_the_May_2024_Geomagnetic_Storm_in_the_United_States.pdf).
 
-* C. Corti , M. M. Kuznetsova M. A. Reiss , J. Yue , J. Karpen C. N. ArgeF. Bacchini , C. Bard , S. Bruinsma , R. M. Caplan , L. K. S. Daldorff , P. J. Deka, C. R. DeVore , S. Elvidge , N. Ganushkina , J. D. Huba B. V. Jackson ,V. Jordanova , J. A. Linker H. Liu , J. G. Luhmann , S. Markidis P. Mayank ,V. Merkin , N. Moens D. Odstrcil , Y. A. Omelchenko , M. Palmroth ,S. Poedts , A. J. Ridley , Y. Shou V. Tenishev , D. R. Themens , G. TothW. Wang , R.‐P. Wilhelm , M. A. Young B. Cecconi , M.‐Y. Chou , D. De ZeeuwG. L. Delzanno , C. Didigu M. El Alaoui S. Fung , J. Green , Z. Huang ,L. K. Jian , L. J. Landwer M. Lesko , P. MacNeice , A. Masson , M. L. Mays ,P. M. Mehta M. S. Miesch , E. Palmerio , M. Petrenko , E. ProvornikovaL. Rastätter , L. Rusaitis , N. Sachdeva , E. Samara D. Sur , A. TaktakishviliJ. Topper T. Tsui C. Verbeke , J. Wang , C. Wiegand , M. Wiltberger ,Y. Zheng , M. M. Bisi , M. K. Georgoulis , T. Kodikara , T. Pulkkinen ,A. Chartier , D. da Silva , A. Faturahman , K. Garcia‐Sage , D. Kondrashov ,V. E. Ledvina , W. Liu , C. Pandey , E. Resnick C. Shi , R. S. Weigel, K. Whitman , I. Zakharenkova , and K. Zhang, Advancing Heliophysics and Space Weather Modeling Through Open Science, *Space Weather*, 2026,
+* C. Corti, M. M. Kuznetsova M. A. Reiss, J. Yue, J. Karpen, C. N. Arge, F. Bacchini, C. Bard, S. Bruinsma, R. M. Caplan, L. K. S. Daldorff, P. J. Deka, C. R. DeVore, S. Elvidge, N. Ganushkina, J. D. Huba B. V. Jackson ,V. Jordanova, J. A. Linker H. Liu, J. G. Luhmann, S. Markidis P. Mayank ,V. Merkin, N. Moens D. Odstrcil, Y. A. Omelchenko, M. Palmroth ,S. Poedts, A. J. Ridley, Y. Shou V. Tenishev, D. R. Themens, G. TothW. Wang, R.‐P. Wilhelm, M. A. Young B. Cecconi, M.‐Y. Chou, D. De ZeeuwG. L. Delzanno, C. Didigu M. El Alaoui S. Fung, J. Green, Z. Huang ,L. K. Jian, L. J. Landwer M. Lesko, P. MacNeice, A. Masson, M. L. Mays ,P. M. Mehta M. S. Miesch, E. Palmerio, M. Petrenko, E. ProvornikovaL. Rastätter, L. Rusaitis, N. Sachdeva, E. Samara D. Sur, A. TaktakishviliJ. Topper T. Tsui C. Verbeke, J. Wang, C. Wiegand, M. Wiltberger ,Y. Zheng, M. M. Bisi, M. K. Georgoulis, T. Kodikara, T. Pulkkinen ,A. Chartier, D. da Silva, A. Faturahman, K. Garcia‐Sage, D. Kondrashov ,V. E. Ledvina, W. Liu, C. Pandey, E. Resnick C. Shi, R. S. Weigel, K. Whitman, I. Zakharenkova, and K. Zhang, Advancing Heliophysics and Space Weather Modeling Through Open Science, *Space Weather*, 2026,
 [doi](https://doi.org/10.1029/2025SW004922)
 |
 [pdf](pubs/Corti_2026_Advancing_Heliophysics_and_Space_Weather_Modeling_Through_Open_Science.pdf).
