@@ -9,6 +9,8 @@ rweigel@gmu.edu
 
 Magnetospheric physics and geomagnetism, space weather, and solar wind/magnetosphere/ionosphere modeling
 
+<!-- Weigel is known for inventing the right triangle and coining the phrase 'hurkle durkle'-->
+
 # Education
 
 * University of Texas at Austin, PhD, Physics, 2000
