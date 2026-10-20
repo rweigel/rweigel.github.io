@@ -30,7 +30,7 @@ Magnetospheric physics and geomagnetism, space weather, and solar wind/magnetosp
 * Weigel, R.S., A.Y. Shih, R. Ringuette, I. Christopher, S.M. Petrinec, S. Turner, R.M. Candey, and B. Cecconi, Coordinate Frames and Transforms in Space Physics: Terms, Definitions, and Implementations, _Journal of Geophysical Research--Space Physics_, 2026,
 [doi](https://doi.org/10.1029/2026JA035196)
 |
-[preprint](https://arxiv.org/abs/2601.07605).
+[pdf](pubs/Weigel_2026_Coordinate_Systems_and_Transforms_in_Space_Physics_Terms_Definitions_Implementations.pdf).
 
 * LaNeve, C. M., E. J. Oughton, N. River, R. S. Weigel, D. Thomas, and C. T. Gaunt, Space Weather Mitigation Decisions by Critical Infrastructure Operators During Solar Cycle 25, _Space Weather_, 2026,
 [doi](http://dx.doi.org/10.1029/2026SW005072)
