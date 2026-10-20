@@ -42,7 +42,7 @@ Magnetospheric physics and geomagnetism, space weather, and solar wind/magnetosp
 [pdf](pubs/Bor_2026_Systematic_Component‐Level_Characterization_of_Electricity_Transmission_Infrastructure_for_Space_Weather_Risk_Assessment.pdf).
 
 * E.J. Oughton, D.K. Bor, R.S. Weigel, C.T. Gaunt, R. Dogan, L. Huang, J.J. Love, M. Wiltberger, Major Space Weather Risks Identified via Coupled Physics-Engineering-Economic Modeling, _AGU Advances_, 2026,
-[doi](https://doi.org/10.1029/2026AV002367).
+[doi](https://doi.org/10.1029/2026AV002367)
 |
 [pdf](pubs/Oughton_2026_Major_Space_Weather_Risks_Identified_via_Coupled_Physics‐Engineering‐Economic_Modeling.pdf)
 | Media Coverage: 
